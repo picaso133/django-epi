@@ -1,1 +1,1 @@
-"web: gunicorn django_epi.wsgi"
+web: gunicorn django_epi.wsgi
