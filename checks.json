@@ -1,0 +1,5372 @@
+[
+        {
+            "number": "1412",
+            "pay_to": "Salgueros Amilcos",
+            "pay_for": "32rd st",
+            "description": "500 Left",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1413",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "800 Kitchen, 2000  23rd",
+            "amount": "2800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/04"
+        },
+        {
+            "number": "1414",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "2239 Market #38",
+            "amount": "13285",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/04"
+        },
+        {
+            "number": "1415",
+            "pay_to": "Rutgers Chow",
+            "pay_for": "Rent",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/04"
+        },
+        {
+            "number": "1416",
+            "pay_to": "Igor Kovalciuc",
+            "pay_for": "1819 Golden Gate",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/04"
+        },
+        {
+            "number": "1417",
+            "pay_to": "Petru Vdovicenco",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/04"
+        },
+        {
+            "number": "1418",
+            "pay_to": "Ion Bolea",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1419",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1420",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1421",
+            "pay_to": "Louie Rent",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/03"
+        },
+        {
+            "number": "1422",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "Daly City.  Slavic",
+            "amount": "3250",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/09"
+        },
+        {
+            "number": "1423",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "1955 Leavenworth",
+            "amount": "10135",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/10"
+        },
+        {
+            "number": "1424",
+            "pay_to": "Roman Zadoinov",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1425",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1668 Washington",
+            "description": "0.25",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/08"
+        },
+        {
+            "number": "1426",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1036 Polk #404 ",
+            "description": "0.25",
+            "amount": "7000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/08"
+        },
+        {
+            "number": "1427",
+            "pay_to": "Andrei Loscutov",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/01"
+        },
+        {
+            "number": "1428",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/11"
+        },
+        {
+            "number": "1429",
+            "pay_to": "Alekseis Sneist",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/11"
+        },
+        {
+            "number": "1430",
+            "pay_to": "Kepper",
+            "amount": "20000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/15"
+        },
+        {
+            "number": "1431",
+            "pay_to": "Petru Vdovicenco",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/15"
+        },
+        {
+            "number": "1432",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "57 Taylor",
+            "amount": "17500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/15"
+        },
+        {
+            "number": "1433",
+            "pay_to": "Ion Bolea",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/16"
+        },
+        {
+            "number": "1434",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Reimbursement",
+            "amount": "238",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1435",
+            "pay_to": "Salgueros Handy",
+            "pay_for": "3201 23nd st. Final 100%",
+            "description": "Total 1000 Alex$6700",
+            "amount": "1700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/16"
+        },
+        {
+            "number": "1436",
+            "pay_to": "Salgueros Handy",
+            "pay_for": "1075 O’Farrell Common Area",
+            "description": "2000 Left",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/16"
+        },
+        {
+            "number": "1437",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Reimbursement per Door",
+            "amount": "200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/16"
+        },
+        {
+            "number": "1438",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "Renting",
+            "amount": "720",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1439",
+            "pay_to": "Yan-Hon Au",
+            "pay_for": "Storage",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/20"
+        },
+        {
+            "number": "1440",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "Materials",
+            "description": "23nd st.",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/17"
+        },
+        {
+            "number": "1441",
+            "pay_to": "Mongol Petru",
+            "pay_for": "57 Taylor",
+            "amount": "650",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/19"
+        },
+        {
+            "number": "1442",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "32rd Door Base",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/20"
+        },
+        {
+            "number": "1443",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Garbage 1163 Pine",
+            "description": "Reimbursement",
+            "amount": "190",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/23"
+        },
+        {
+            "number": "1444",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Inv#1 1016 Washington #D",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/23"
+        },
+        {
+            "number": "1445",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv#1 1016 Washington #D",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/23"
+        },
+        {
+            "number": "1446",
+            "pay_to": "Alexey Shatilo",
+            "pay_for": "747 Ellis #12",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/24"
+        },
+        {
+            "number": "1447",
+            "pay_to": "First check Denis Lapata",
+            "pay_for": "1075 O'Farrell Paint ComArea",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/25"
+        },
+        {
+            "number": "1448",
+            "pay_to": "First check Aliaksei Arol",
+            "pay_for": "1075 O’Farrell Common Area",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/25"
+        },
+        {
+            "number": "1449",
+            "pay_to": "Zayashit",
+            "pay_for": "57 Taylor",
+            "amount": "360",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/25"
+        },
+        {
+            "number": "1450",
+            "pay_to": "Victoria Gorpn",
+            "amount": "1450",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/22"
+        },
+        {
+            "number": "1451",
+            "pay_to": "First check SF Hardwood Flooring",
+            "pay_for": "3201 23nd st. #102  Aram",
+            "amount": "3100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/28"
+        },
+        {
+            "number": "1452",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "950 Franklin #58.  25%",
+            "description": "Rest 50%",
+            "amount": "8500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/29"
+        },
+        {
+            "number": "1453",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1025 Stainer #3. 25%",
+            "description": "Rest 50%",
+            "amount": "7250",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/29"
+        },
+        {
+            "number": "1454",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1668 Washington",
+            "description": "Rest 50%",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/29"
+        },
+        {
+            "number": "1455",
+            "pay_to": "Andrei Loscutov",
+            "pay_for": "935 O’Farrell #23",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/01/30"
+        },
+        {
+            "number": "1456",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1457",
+            "pay_to": "Kepper",
+            "pay_for": "1230 Jackson #4",
+            "description": "0.25",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/02"
+        },
+        {
+            "number": "1458",
+            "pay_to": "Kepper",
+            "pay_for": "470  14th st.",
+            "description": "0.25",
+            "amount": "8750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/02"
+        },
+        {
+            "number": "1459",
+            "pay_to": "Louie",
+            "pay_for": "Home Rent for Sub",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1460",
+            "pay_to": "Igor Kovalciuc",
+            "pay_for": "57 Taylor",
+            "amount": "730",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/01"
+        },
+        {
+            "number": "1461",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "1075 O’Farrell Common Area",
+            "description": "Treem, Basebord",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/01"
+        },
+        {
+            "number": "1462",
+            "pay_to": "Petru Vdovicenco",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/02"
+        },
+        {
+            "number": "1463",
+            "pay_to": "Roman Zadoinov",
+            "pay_for": "43466",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/04"
+        },
+        {
+            "number": "1464",
+            "pay_to": "Visa Flooring ",
+            "pay_for": "Floor Japanice OAK 1163 Pine #8",
+            "amount": "1479.52",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/04"
+        },
+        {
+            "number": "1465",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1466",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "1955 Leavenworth",
+            "amount": "1400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/05"
+        },
+        {
+            "number": "1467",
+            "pay_to": "Irina Ruboy ",
+            "pay_for": "2250 32th Ave",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/04"
+        },
+        {
+            "number": "1468",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1469",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "1036 Polk #404 ",
+            "amount": "14385",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/05"
+        },
+        {
+            "number": "1470",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "1036 Polk #507",
+            "amount": "14440",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/05"
+        },
+        {
+            "number": "1471",
+            "pay_to": "Jenny Su",
+            "pay_for": "Accouting",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/06"
+        },
+        {
+            "number": "1472",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/08"
+        },
+        {
+            "number": "1473",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "Office rent",
+            "amount": "5600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/07"
+        },
+        {
+            "number": "1474",
+            "pay_to": "Yan-Hon Au",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/07"
+        },
+        {
+            "number": "1475",
+            "pay_to": "Igor Covalciuc",
+            "pay_for": "1163 Pine 100%  ",
+            "description": "2500 past",
+            "amount": "1400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/07"
+        },
+        {
+            "number": "1476",
+            "pay_to": "Maksym Lychak",
+            "pay_for": "57 Taylor",
+            "amount": "360",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/07"
+        },
+        {
+            "number": "1477",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "57 Taylor",
+            "description": "Drywall 100%",
+            "amount": "17500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/10"
+        },
+        {
+            "number": "1478",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "2339 Market #38",
+            "description": "Total 50%",
+            "amount": "7500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/10"
+        },
+        {
+            "number": "1479",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1036 Polk #404 ",
+            "amount": "7000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/10"
+        },
+        {
+            "number": "1480",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "1075 O’Farrell Common Area",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/11"
+        },
+        {
+            "number": "1481",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "1163 Pine #8",
+            "amount": "1680",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/11"
+        },
+        {
+            "number": "1482",
+            "pay_to": "ALekseis Snezkovs",
+            "pay_for": "23rd st",
+            "description": "Reimbursement, Materials",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/13"
+        },
+        {
+            "number": "1483",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "57 Taylor 4Units",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/13"
+        },
+        {
+            "number": "1484",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "935 O’Farrell 5 Units, unit23",
+            "description": "First pay app",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/14"
+        },
+        {
+            "number": "1485",
+            "pay_to": "European Design",
+            "pay_for": "Reimbursement",
+            "description": "935 O’Farrell",
+            "amount": "380",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/14"
+        },
+        {
+            "number": "1486",
+            "pay_to": "European Design",
+            "pay_for": "935 O’Farrell #23,#27",
+            "description": "Demo/Frame",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/14"
+        },
+        {
+            "number": "1487",
+            "pay_to": "Denis Lapata",
+            "pay_for": "1075 O’Farrell Inv.#1",
+            "description": "50% of 100%",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/15"
+        },
+        {
+            "number": "1488",
+            "pay_to": "Denis Lapata",
+            "pay_for": "1523 32nd Ave #2 Invoice",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/15"
+        },
+        {
+            "number": "1489",
+            "pay_to": "Igor Covalciuc",
+            "pay_for": "1163 Pine Final 100%",
+            "description": "For all projects",
+            "amount": "500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/15"
+        },
+        {
+            "number": "1490",
+            "pay_to": "Golden Coast Remod",
+            "pay_for": "32nd Avenue",
+            "amount": "500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/15"
+        },
+        {
+            "number": "1491",
+            "pay_to": "Kepper",
+            "pay_for": "1955 Leavenworth",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1492",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv.#45  935 O’Farrell",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/16"
+        },
+        {
+            "number": "1493",
+            "pay_to": "Anatoliy Kylya",
+            "pay_for": "500 Church Total",
+            "description": "Final",
+            "amount": "6000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/02"
+        },
+        {
+            "number": "1494",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "1668 Washington #5",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/15"
+        },
+        {
+            "number": "1495",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "3201 23nd st. #102  ",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/19"
+        },
+        {
+            "number": "1496",
+            "pay_to": "Victoria Gorpnynych",
+            "pay_for": "Russian Center",
+            "amount": "1280",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/19"
+        },
+        {
+            "number": "1497",
+            "pay_to": "ALekseis Snezkovs",
+            "pay_for": "1523 32nd Ave ",
+            "description": "Reimbursement",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/20"
+        },
+        {
+            "number": "1498",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "#38 Market 2339 Tile",
+            "amount": "5500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/25"
+        },
+        {
+            "number": "1499",
+            "pay_to": "George Kvaseladze",
+            "pay_for": "Reimbursement",
+            "amount": "2600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/21"
+        },
+        {
+            "number": "1500",
+            "pay_to": "George Kvaseladze",
+            "pay_for": "Reimbursement",
+            "amount": "2600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/21"
+        },
+        {
+            "number": "1501",
+            "pay_to": "European Design",
+            "pay_for": "57 Taylor",
+            "description": "Level Floor",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/20"
+        },
+        {
+            "number": "1502",
+            "pay_to": "European Design",
+            "pay_for": "Materials Reimbursement",
+            "amount": "700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/20"
+        },
+        {
+            "number": "1503",
+            "pay_to": "CCSF DBI",
+            "pay_for": "Permit",
+            "description": "2237 A Market str",
+            "amount": "2764.96",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/26"
+        },
+        {
+            "number": "1504",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Warehouse on Mission",
+            "description": "Drywall ",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1505",
+            "pay_to": "Rutgers Chow",
+            "pay_for": "33rd Rent",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/02/05"
+        },
+        {
+            "number": "1506",
+            "pay_to": "Covered Cal f small Bussenes",
+            "pay_for": "Insurance Medical",
+            "amount": "1849.86",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1507",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1036 Polk #507",
+            "description": "0.25",
+            "amount": "8250",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1508",
+            "pay_to": "Dima Project Manager",
+            "amount": "526",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/04"
+        },
+        {
+            "number": "1509",
+            "pay_to": "Dima Project Manager",
+            "pay_for": "2 weeks pay",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/04"
+        },
+        {
+            "number": "1510",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "1163 Pine ",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1511",
+            "pay_to": "Rutgers Chow",
+            "pay_for": "Rent",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1512",
+            "pay_to": "Irina Ruboy ",
+            "pay_for": "Rent",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1513",
+            "pay_to": "Yevgeniy Petryanik",
+            "pay_for": "935 O’Farrell #23- 2K,#27-2K",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1514",
+            "pay_to": "Andrei Loscutov",
+            "pay_for": "935 O’Farrell #43",
+            "description": "5K of 15K; 5K Left",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1515",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "500 Church 504A",
+            "description": "500 Left+CO",
+            "amount": "7000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1516",
+            "pay_to": "Ion Bolea",
+            "pay_for": "935 O’Farrell #43 ",
+            "description": "Ion 50%",
+            "amount": "3750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1517",
+            "pay_to": "Igor Muntean",
+            "amount": "1510",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1518",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Mission Floor",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1519",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "935 O’Farrell 3Units, 747Ellis 4 Units countertop",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1520",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "720 Pine",
+            "amount": "5800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1521",
+            "pay_to": "Yan-Hon Au",
+            "pay_for": "Warehouse  Rent",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1522",
+            "pay_to": "Louie",
+            "pay_for": "Rent",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1523",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "1025 Post st.#36",
+            "amount": "934",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1524",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "449 O’Farrell #203",
+            "amount": "3618",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1525",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "1424 Polk #55 ",
+            "description": "For CO",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1526",
+            "pay_to": "Visa Flooring ",
+            "pay_for": "Warehouse  Floring",
+            "description": "3370 18th st.",
+            "amount": "17240",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/05"
+        },
+        {
+            "number": "1527",
+            "pay_to": "ALekseis Snezkovs",
+            "pay_for": "Reimbursement",
+            "description": "1523 32nd ave",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1528",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "Warehouse  ",
+            "description": "3370 18th st. Demo",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1529",
+            "pay_to": "Kepper",
+            "pay_for": "470  14th st.",
+            "amount": "12000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/07"
+        },
+        {
+            "number": "1530",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "1163 Pine ",
+            "description": "2000 Hold",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/07"
+        },
+        {
+            "number": "1531",
+            "pay_to": "Denis Lapata",
+            "pay_for": "1163 Pine ",
+            "description": "1",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/07"
+        },
+        {
+            "number": "1532",
+            "pay_to": "Sudeep Shab",
+            "pay_for": "Russian Center",
+            "description": "57 Taylor",
+            "amount": "1365",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/06"
+        },
+        {
+            "number": "1533",
+            "pay_to": "Kepper",
+            "pay_for": "1230 Jackson  Drywall",
+            "description": "Gustavo Martines",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/11"
+        },
+        {
+            "number": "1534",
+            "pay_to": "Petru Vdovicenco",
+            "amount": "6000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/11"
+        },
+        {
+            "number": "1535",
+            "pay_to": "Igor Muntean",
+            "pay_for": "466. 14th st.",
+            "description": "Paint and clean",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/13"
+        },
+        {
+            "number": "1536",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "2339 Market",
+            "description": "For Alex",
+            "amount": "1600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/13"
+        },
+        {
+            "number": "1537",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "935 O’Farrell #43",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/14"
+        },
+        {
+            "number": "1538",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "3337 18th st.",
+            "description": "Warehouse",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/14"
+        },
+        {
+            "number": "1539",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "950 Franklin #58.  100%",
+            "amount": "17500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/14"
+        },
+        {
+            "number": "1540",
+            "pay_to": "Dmitriy Tashmuratov",
+            "description": "1/14 March",
+            "amount": "2056.59",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/14"
+        },
+        {
+            "number": "1541",
+            "pay_to": "Aleksey Gorbatov (Leoha)",
+            "pay_for": "747 Ellis #12",
+            "description": "1",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/14"
+        },
+        {
+            "number": "1542",
+            "pay_to": "Kepper",
+            "pay_for": "1955 Leavenworth",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/15"
+        },
+        {
+            "number": "1543",
+            "pay_to": "Ivanko Yuliya",
+            "pay_for": "Loan",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/15"
+        },
+        {
+            "number": "1544",
+            "pay_to": "Igor Muntean",
+            "pay_for": "3/11-3/15 Training",
+            "description": "Pay /day",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/15"
+        },
+        {
+            "number": "1545",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "1163 Pine #8",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1546",
+            "pay_to": "European Design",
+            "pay_for": "R.F.",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1547",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/16"
+        },
+        {
+            "number": "1548",
+            "pay_to": "Dmitriy Tashmuratov",
+            "pay_for": "RussianFestival and last week",
+            "amount": "1450",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/19"
+        },
+        {
+            "number": "1549",
+            "pay_to": "Dmitriy Tashmuratov",
+            "pay_for": "RussianFestival and last week",
+            "amount": "140",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/19"
+        },
+        {
+            "number": "1550",
+            "pay_to": "Visa Flooring ",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1551",
+            "pay_to": "Alecsandry Gorbuleu",
+            "pay_for": "1668 Washington",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1552",
+            "pay_to": "DBI",
+            "pay_for": "1523 32nd Ave ",
+            "description": "Plumbing Insp",
+            "amount": "148",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/19"
+        },
+        {
+            "number": "1553",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "Reimbursement",
+            "description": "18 th.st. Materials",
+            "amount": "500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1554",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "3201 23nd st. #102  ",
+            "amount": "3400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1555",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "18th. St.",
+            "description": "1",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1556",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1557",
+            "pay_to": "Denis Lapata",
+            "pay_for": "1075 O’Farrell Common Area",
+            "description": "Exit Stairs",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1558",
+            "pay_to": "Igor Muntean",
+            "amount": "2700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/22"
+        },
+        {
+            "number": "1559",
+            "pay_to": "Ion Bolea",
+            "pay_for": "935 O’Farrell #45",
+            "description": "Invoice #10",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/21"
+        },
+        {
+            "number": "1560",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1025 Stainer #3. 100%",
+            "description": "1",
+            "amount": "14500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/23"
+        },
+        {
+            "number": "1561",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "1656 Leavenworth #3",
+            "description": "0.25",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/19"
+        },
+        {
+            "number": "1562",
+            "pay_to": "ALekseis Snezkovs",
+            "pay_for": "32nd Avenue - 2,715 of 7,200  747 Ellis - 668.    23rd.st. - ",
+            "description": "Reimbursement",
+            "amount": "3600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/23"
+        },
+        {
+            "number": "1563",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "935 O’Farrell #27",
+            "description": "Arol is project",
+            "amount": "1300",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/26"
+        },
+        {
+            "number": "1564",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "18th. St. Warehouse",
+            "description": "Storage - Hon",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/25"
+        },
+        {
+            "number": "1565",
+            "pay_to": "Andrii Electric",
+            "pay_for": "18th. St. Warehouse",
+            "description": "100% Done paid",
+            "amount": "3830",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1566",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1st.    2237 A Market ",
+            "description": "Deposit + 35%",
+            "amount": "49900",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/29"
+        },
+        {
+            "number": "1567",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "GAA",
+            "description": "Materials $360;                        57 Taylor $ 2,400 ;                2625 Franklin $3,000.",
+            "amount": "5760",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/29"
+        },
+        {
+            "number": "1568",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "15 - 30 March",
+            "amount": "2800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/29"
+        },
+        {
+            "number": "1569",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Invoice #5",
+            "amount": "6977",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/29"
+        },
+        {
+            "number": "1570",
+            "pay_to": "European Design",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/29"
+        },
+        {
+            "number": "1571",
+            "pay_to": "Rutgers Chow",
+            "amount": "4936.57",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/31"
+        },
+        {
+            "number": "1572",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/31"
+        },
+        {
+            "number": "1573",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Invoice #13;   #43; #45",
+            "description": "1",
+            "amount": "7250",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/02"
+        },
+        {
+            "number": "1574",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Invoice #2,4,5,6,7",
+            "amount": "1925",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/02"
+        },
+        {
+            "number": "1575",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Invoice #8",
+            "description": "100% 43",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/02"
+        },
+        {
+            "number": "1576",
+            "pay_to": "Aleksey Gorbatov",
+            "pay_for": "GAA",
+            "description": "2625 Franklin 100%",
+            "amount": "3100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/03"
+        },
+        {
+            "number": "1577",
+            "pay_to": "Sudeep Shab",
+            "pay_for": "57 Taylor",
+            "amount": "2938.45",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/03/31"
+        },
+        {
+            "number": "1578",
+            "pay_to": "Kepper",
+            "pay_for": "470  14th st.",
+            "description": "25% of 75%",
+            "amount": "8750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/04"
+        },
+        {
+            "number": "1579",
+            "pay_to": "Kepper",
+            "pay_for": "1230 Jackson",
+            "description": "25% of 75%",
+            "amount": "7500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/04"
+        },
+        {
+            "number": "1580",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "960",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/04"
+        },
+        {
+            "number": "1581",
+            "pay_to": "Igor Muntean",
+            "pay_for": "400 Duboce Inv. 16",
+            "description": "0.25",
+            "amount": "3750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/04"
+        },
+        {
+            "number": "1582",
+            "pay_to": "China Window",
+            "amount": "500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/04"
+        },
+        {
+            "number": "1583",
+            "pay_to": "Ella Tkach",
+            "pay_for": "Tax 2019",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/04"
+        },
+        {
+            "number": "1584",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "Reimbursement for tax",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/15"
+        },
+        {
+            "number": "1585",
+            "pay_to": "George Kvaseladze",
+            "pay_for": "Reimbursement",
+            "amount": "2600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1586",
+            "pay_to": "Volha Bialko",
+            "pay_for": "March 11 - April 15",
+            "amount": "2760",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1587",
+            "pay_to": "SF HardWood Floor",
+            "description": "?",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1588",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Reimbursement",
+            "description": "Material, Permit",
+            "amount": "3600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1589",
+            "pay_to": "Andrei Loscutov",
+            "pay_for": "1656 Leavenworth,     990Geary 302, 202",
+            "amount": "5150",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1590",
+            "pay_to": "GAA",
+            "pay_for": "990 Fulton",
+            "description": "25% of 100%",
+            "amount": "6500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1591",
+            "pay_to": "GAA",
+            "pay_for": "1656 Leavenworth, 400Duboce",
+            "description": "Counter",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/10"
+        },
+        {
+            "number": "1592",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "April 1- April 15",
+            "description": "Payroll ck#22 $2496.47",
+            "amount": "2800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1593",
+            "pay_to": "Amilcar A Salguero",
+            "pay_for": "Reimbursement",
+            "amount": "600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1594",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Storage Backer",
+            "description": "Invoice #007",
+            "amount": "5429",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1595",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Jackson #3",
+            "description": "Baker L",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1596",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Storage Inv#8",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1597",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "2625 Franklin",
+            "amount": "1880",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1598",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "2625 Franklin",
+            "description": "Leoshka B",
+            "amount": "2220",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1599",
+            "pay_to": "Vladimir Danilyuk",
+            "pay_for": "2625 Franklin",
+            "description": "Leoshka B",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1600",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/11"
+        },
+        {
+            "number": "1601",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Floor",
+            "amount": "2100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1602",
+            "pay_to": "Jenny Su",
+            "pay_for": "Accouting",
+            "amount": "1875",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/25"
+        },
+        {
+            "number": "1603",
+            "pay_to": "United States Treasury",
+            "pay_for": "F941/Q1",
+            "description": "37-1826051",
+            "amount": "3111.2",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/25"
+        },
+        {
+            "number": "1604",
+            "pay_to": "Zhuleha Henadzi",
+            "pay_for": "Geary",
+            "amount": "2230",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/30"
+        },
+        {
+            "number": "1605",
+            "pay_to": "DBI",
+            "pay_for": "1036 Polk #507",
+            "description": "Pl permit",
+            "amount": "632.4",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/30"
+        },
+        {
+            "number": "1606",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "1668 Washington",
+            "amount": "13600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/04/30"
+        },
+        {
+            "number": "1607",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "-"
+        },
+        {
+            "number": "1608",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Invoice #16",
+            "amount": "3750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1609",
+            "pay_to": "Hugo Ben",
+            "amount": "600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1610",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Invoice #16",
+            "amount": "6500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1611",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Invoice #11,12,13,14,15",
+            "amount": "9800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1612",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "3100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1613",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1614",
+            "pay_to": "Vladimir Danilyuk",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1615",
+            "pay_to": "Kepper",
+            "pay_for": "470  14th st. #1",
+            "description": "50% of 50%",
+            "amount": "17500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/01"
+        },
+        {
+            "number": "1616",
+            "pay_to": "Kepper",
+            "pay_for": "Jackson ",
+            "description": "50% of 50%",
+            "amount": "15000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/05"
+        },
+        {
+            "number": "1617",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1618",
+            "pay_to": "Rutgers Chow",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1619",
+            "pay_to": "DBI",
+            "pay_for": "4130 Cesar Chavez #23",
+            "amount": "2257.27",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1620",
+            "pay_to": "Oleg Meliashvili",
+            "pay_for": "Plambing",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/03"
+        },
+        {
+            "number": "1621",
+            "pay_to": "GAA",
+            "pay_for": "Oleg Gorbatii",
+            "description": "3201 23rd. C/O 50%",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/03"
+        },
+        {
+            "number": "1622",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1623",
+            "pay_to": "Void",
+            "pay_for": "Rent and utility",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/04"
+        },
+        {
+            "number": "1624",
+            "pay_to": "Hon",
+            "pay_for": "W/H",
+            "amount": "3600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1625",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1626",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1627",
+            "pay_to": "Louie Lee",
+            "amount": "8400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1628",
+            "pay_to": "Hon",
+            "pay_for": "W/H",
+            "description": "?",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1629",
+            "pay_to": "George Kvaseladze",
+            "amount": "2600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1630",
+            "pay_to": "GAA",
+            "pay_for": "Aleksei Gorbatov",
+            "description": "3201 23rd 50%-50%.       190Fulton 25%-75%",
+            "amount": "9500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1631",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1632",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "April + Utilites",
+            "amount": "7253.16",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1633",
+            "pay_to": "Irina Ruboy ",
+            "pay_for": "43586",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1634",
+            "pay_to": "Irina Ruboy ",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/01"
+        },
+        {
+            "number": "1635",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1636",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1637",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1638",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/01"
+        },
+        {
+            "number": "1639",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/01"
+        },
+        {
+            "number": "1640",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "935 O’Farrell #42; #43;#45",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/10"
+        },
+        {
+            "number": "1641",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "985 O’Farrell #27  ",
+            "description": "1",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1642",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Reimbursement material",
+            "description": "2238 Hude  2x4",
+            "amount": "389.29",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/07"
+        },
+        {
+            "number": "1643",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Adrian Pere Juni",
+            "description": "Inv.#2,3,5,6,7,13,15",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1644",
+            "pay_to": "Sergey Belilovskiy. Global Arch",
+            "pay_for": "Inv.#2,3,5,6,7,13,15",
+            "amount": "4644.45",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1645",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv.#2,3,5,6,7,13,15",
+            "description": "Paid in full",
+            "amount": "20055.55",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1646",
+            "pay_to": "Precision Plumbing. Global Arch",
+            "pay_for": "Inv.#2,3,5,6,7,13,15",
+            "amount": "6945",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1647",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "163 San Leandro",
+            "description": "0.6",
+            "amount": "6000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1648",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv.#17",
+            "description": "100 % Reimbursement",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/08"
+        },
+        {
+            "number": "1649",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "April 15 -April 30",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/10"
+        },
+        {
+            "number": "1650",
+            "pay_to": "Denis Lapata",
+            "pay_for": "459 33rd Ave",
+            "description": "Paint",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/13"
+        },
+        {
+            "number": "1651",
+            "pay_to": "Yauheni Berlinski",
+            "pay_for": "459 33rd Ave",
+            "description": "Paint",
+            "amount": "1600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/13"
+        },
+        {
+            "number": "1652",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Inv.#9",
+            "amount": "5150",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/14"
+        },
+        {
+            "number": "1653",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Inv.#10, 11",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/14"
+        },
+        {
+            "number": "1654",
+            "pay_to": "European Design",
+            "pay_for": "Fence",
+            "amount": "4800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1655",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "O’Farrell #24",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1656",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1657",
+            "pay_to": "Denis Doni",
+            "pay_for": "Reimbursement",
+            "amount": "500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/15"
+        },
+        {
+            "number": "1658",
+            "pay_to": "Ion Bolea",
+            "pay_for": "163 San Leandro  50% left",
+            "description": "25% of 75%",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/16"
+        },
+        {
+            "number": "1659",
+            "pay_to": "Irina Ruboy ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/13"
+        },
+        {
+            "number": "1660",
+            "pay_to": "GAA.,   Global Arch",
+            "pay_for": "990 Geary, 1036 Polk",
+            "amount": "1750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/16"
+        },
+        {
+            "number": "1661",
+            "pay_to": "GAA",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/20"
+        },
+        {
+            "number": "1662",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1663",
+            "pay_to": "Hon Au",
+            "amount": "8500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/16"
+        },
+        {
+            "number": "1664",
+            "pay_to": "Unicorn Consulting",
+            "amount": "5800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/16"
+        },
+        {
+            "number": "1665",
+            "pay_to": "Alexandru Colta",
+            "pay_for": "Leoha 1750.0",
+            "amount": "4750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/16"
+        },
+        {
+            "number": "1666",
+            "pay_to": "Volha Bialko",
+            "amount": "2288",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/16"
+        },
+        {
+            "number": "1667",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1668",
+            "pay_to": "Igor Muntean",
+            "pay_for": "Inv.#18",
+            "amount": "2325",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/20"
+        },
+        {
+            "number": "1669",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "San Leandro",
+            "description": "1",
+            "amount": "6000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/22"
+        },
+        {
+            "number": "1670",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "990 Geary",
+            "amount": "2200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/22"
+        },
+        {
+            "number": "1671",
+            "pay_to": "Vlad Oakland",
+            "amount": "2880",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/22"
+        },
+        {
+            "number": "1672",
+            "pay_to": "DBI",
+            "pay_for": "1036 Polk ",
+            "description": "Pl permit",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/22"
+        },
+        {
+            "number": "1673",
+            "pay_to": "Rusul cu PetrudlSac",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/22"
+        },
+        {
+            "number": "1674",
+            "pay_to": "Andrei Loscutov",
+            "pay_for": "#42 Leavenworth, O’Farrell",
+            "amount": "8300",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/29"
+        },
+        {
+            "number": "1675",
+            "pay_to": "Igor Vyner. R.Y.",
+            "pay_for": "April - May",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/01"
+        },
+        {
+            "number": "1676",
+            "pay_to": "Ion Bolea",
+            "pay_for": "163 San Leandro",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/01"
+        },
+        {
+            "number": "1677",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "935 O’Farrell #27",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/31"
+        },
+        {
+            "number": "1678",
+            "pay_to": "Calif. State License B",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/05/31"
+        },
+        {
+            "number": "1679",
+            "pay_to": "George Kvaseladze",
+            "amount": "2600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1680",
+            "pay_to": "George Kvaseladze",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1681",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv.#19",
+            "amount": "16293",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/01"
+        },
+        {
+            "number": "1682",
+            "pay_to": "Fidelity National Title",
+            "pay_for": "Down Payment Santa Rosa",
+            "amount": "25000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/01"
+        },
+        {
+            "number": "1683",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "345 Fulton",
+            "amount": "1100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/03"
+        },
+        {
+            "number": "1684",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Counter Top San Leandro",
+            "amount": "733",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/04"
+        },
+        {
+            "number": "1685",
+            "pay_to": "Kepper",
+            "pay_for": "2240 Larkin#204",
+            "description": "50%of100",
+            "amount": "13000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/03"
+        },
+        {
+            "number": "1686",
+            "pay_to": "AAG. Alex Gorbatii",
+            "pay_for": "345 Fulton",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/04"
+        },
+        {
+            "number": "1687",
+            "pay_to": "Michael Training",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1688",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Taylor",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/04"
+        },
+        {
+            "number": "1689",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Russian Center",
+            "description": "From Feb 17, till June 5",
+            "amount": "5280",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/05"
+        },
+        {
+            "number": "1690",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "2237 A Market",
+            "description": "Second payment 10,000 EPI",
+            "amount": "28900",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/05"
+        },
+        {
+            "number": "1691",
+            "pay_to": "Adrian Perelijnii",
+            "pay_for": "Ceazer Chaves",
+            "description": "Reimbursement",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/05"
+        },
+        {
+            "number": "1692",
+            "pay_to": "Siedzh Moskaly",
+            "pay_for": "Ceazer Chaves",
+            "description": "Reimbursement",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/05"
+        },
+        {
+            "number": "1693",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Ceazer Chaves",
+            "amount": "1997.5",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/05"
+        },
+        {
+            "number": "1694",
+            "pay_to": "Muratov Alexandry",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/11"
+        },
+        {
+            "number": "1695",
+            "pay_to": "Sudeep Shab",
+            "amount": "2700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/11"
+        },
+        {
+            "number": "1696",
+            "pay_to": "Danilyuk Vladimir",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/11"
+        },
+        {
+            "number": "1697",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1698",
+            "pay_to": "Victoria Gorpnynych",
+            "amount": "2700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/12"
+        },
+        {
+            "number": "1699",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1700",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "Bonuss",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/11"
+        },
+        {
+            "number": "1701",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1702",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1703",
+            "pay_to": "FNT",
+            "pay_for": "Down Payment Santa Rosa",
+            "amount": "25000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/14"
+        },
+        {
+            "number": "1704",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/15"
+        },
+        {
+            "number": "1705",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "935 O’Farrell ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/15"
+        },
+        {
+            "number": "1706",
+            "pay_to": "Kepper",
+            "pay_for": "1230 Jackson",
+            "description": "CO",
+            "amount": "3550",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/17"
+        },
+        {
+            "number": "1707",
+            "pay_to": "Kepper",
+            "pay_for": "2240 Larkin",
+            "amount": "13000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/17"
+        },
+        {
+            "number": "1708",
+            "pay_to": "Kepper",
+            "pay_for": "470  14th st.",
+            "amount": "10650",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/28"
+        },
+        {
+            "number": "1709",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Jenny’s House",
+            "description": "Paint",
+            "amount": "4700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/18"
+        },
+        {
+            "number": "1710",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "345 Fulton",
+            "description": "Global Arch Project",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/19"
+        },
+        {
+            "number": "1711",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "San Leandro",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/19"
+        },
+        {
+            "number": "1712",
+            "pay_to": "European Design",
+            "pay_for": "San Leandro, Hyde",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/19"
+        },
+        {
+            "number": "1713",
+            "pay_to": "GAA",
+            "pay_for": "1520 Gough",
+            "amount": "600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/20"
+        },
+        {
+            "number": "1714",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "990 Fulton",
+            "amount": "1900",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/20"
+        },
+        {
+            "number": "1715",
+            "pay_to": "GAA",
+            "pay_for": "990 Fulton #304",
+            "description": "1",
+            "amount": "11800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/20"
+        },
+        {
+            "number": "1716",
+            "pay_to": "Rutgers Chow",
+            "pay_for": "June Home Rent",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/19"
+        },
+        {
+            "number": "1717",
+            "pay_to": "Louie Lee",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/18"
+        },
+        {
+            "number": "1718",
+            "pay_to": "Volha Bialko",
+            "pay_for": "Until 22 June",
+            "amount": "3344.21",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/18"
+        },
+        {
+            "number": "1719",
+            "pay_to": "Rutgers Chow",
+            "pay_for": "July Rent",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/20"
+        },
+        {
+            "number": "1720",
+            "pay_to": "Vladimir Danilyuk",
+            "pay_for": "Until 22 June",
+            "description": "100$ dolg",
+            "amount": "2720",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/22"
+        },
+        {
+            "number": "1721",
+            "pay_to": "Denis Lapata",
+            "pay_for": "32nd Avenue, Mission",
+            "amount": "1739",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/24"
+        },
+        {
+            "number": "1722",
+            "pay_to": "Unicorn Consulting",
+            "pay_for": "Rent",
+            "amount": "5800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/24"
+        },
+        {
+            "number": "1723",
+            "pay_to": "Hon-Yat",
+            "pay_for": "Storage",
+            "amount": "3600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1724",
+            "pay_to": "Hon-Yat",
+            "pay_for": "Storage",
+            "amount": "3600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/29"
+        },
+        {
+            "number": "1725",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Serghei Belilovskiy",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/30"
+        },
+        {
+            "number": "1726",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1727",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "2115 Hyde",
+            "description": "1",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/02"
+        },
+        {
+            "number": "1728",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/28"
+        },
+        {
+            "number": "1729",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Vanna Dalwood",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/28"
+        },
+        {
+            "number": "1730",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "6/24/19 - 6/29/19",
+            "amount": "1200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/21"
+        },
+        {
+            "number": "1731",
+            "pay_to": "Muratov Alexandry",
+            "pay_for": "43643",
+            "amount": "1625",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1732",
+            "pay_to": "Petru Vdovicenco",
+            "pay_for": "R.C",
+            "description": "Reimbursement",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/06/29"
+        },
+        {
+            "number": "1733",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Janna is house + 2 days",
+            "amount": "3550",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1734",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv.#19.1",
+            "amount": "10915",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1735",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1736",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1737",
+            "pay_to": "European Design",
+            "pay_for": "1955 Leavenworth, 1656 Leavenworth",
+            "amount": "5500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1738",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Market Global Arch",
+            "amount": "6500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1739",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1740",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "935 O’Farrell #23",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1741",
+            "pay_to": "George Kvaseladze",
+            "amount": "2700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1742",
+            "pay_to": "George Kvaseladze",
+            "amount": "5200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1743",
+            "pay_to": "Vadzim  Finski",
+            "pay_for": "6/17/19-6/30/19",
+            "amount": "2880",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/01"
+        },
+        {
+            "number": "1744",
+            "pay_to": "Ion Bolea",
+            "pay_for": "San Leandro",
+            "amount": "3025",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/02"
+        },
+        {
+            "number": "1745",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1746",
+            "pay_to": "Ion Bolea",
+            "pay_for": "San Leandro",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/02"
+        },
+        {
+            "number": "1747",
+            "pay_to": "Scavenger SF",
+            "pay_for": "Garbage",
+            "amount": "221.94",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/02"
+        },
+        {
+            "number": "1748",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv.#20.1",
+            "amount": "6300",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/02"
+        },
+        {
+            "number": "1749",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/05"
+        },
+        {
+            "number": "1750",
+            "pay_to": "Yauheni Berlinski",
+            "amount": "1385",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/05"
+        },
+        {
+            "number": "1751",
+            "pay_to": "Denis Lapata",
+            "amount": "415",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/05"
+        },
+        {
+            "number": "1752",
+            "pay_to": "Vladimir Danilyuk",
+            "pay_for": "6/24/19 - 7/13/19",
+            "amount": "2775",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/12"
+        },
+        {
+            "number": "1753",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "726 Bush#404; 2240 Larkin #104; #204",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/12"
+        },
+        {
+            "number": "1754",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "726 Bush#404; 2240 Larkin #104; #204",
+            "amount": "1020",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/12"
+        },
+        {
+            "number": "1755",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "2237  Market",
+            "amount": "7152",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/12"
+        },
+        {
+            "number": "1756",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Ceazer Chaves",
+            "amount": "14997",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1757",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "2 WEEKS 7/12",
+            "amount": "2760",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/16"
+        },
+        {
+            "number": "1758",
+            "pay_to": "Vadzim  ",
+            "pay_for": "T/S #2 ",
+            "amount": "3200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/16"
+        },
+        {
+            "number": "1759",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/16"
+        },
+        {
+            "number": "1760",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "7/1/19 - 7/15/19",
+            "description": "Replace c/c#46",
+            "amount": "2284.69",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/16"
+        },
+        {
+            "number": "1761",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1762",
+            "pay_to": "Yauheni Berlinski",
+            "pay_for": "2115 Hyde",
+            "description": "Paint",
+            "amount": "900",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/17"
+        },
+        {
+            "number": "1763",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "935 O’Farrell ",
+            "amount": "5950",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/17"
+        },
+        {
+            "number": "1764",
+            "pay_to": "Denis Lapata",
+            "pay_for": "2115 Hyde",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/17"
+        },
+        {
+            "number": "1765",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "2115 Hyde",
+            "amount": "600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/17"
+        },
+        {
+            "number": "1766",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "2240 Larkin",
+            "amount": "1100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/17"
+        },
+        {
+            "number": "1767",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv.#26",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/17"
+        },
+        {
+            "number": "1768",
+            "pay_to": "DBI",
+            "pay_for": "1480 Larkin Scafoll",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1769",
+            "pay_to": "Denis Lapata",
+            "pay_for": "32nd Avenue",
+            "amount": "600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/21"
+        },
+        {
+            "number": "1770",
+            "pay_to": "Violet’s Houseclaming Service",
+            "pay_for": "990 Fulton #304",
+            "amount": "200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/21"
+        },
+        {
+            "number": "1771",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "2115 Hyde",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1772",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "2238 Hyde #14",
+            "description": "0.5",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1773",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "795 Pine",
+            "description": "0.35",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/26"
+        },
+        {
+            "number": "1774",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "2238 Hyde #14",
+            "description": "1",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/24"
+        },
+        {
+            "number": "1775",
+            "pay_to": "Louie Lee",
+            "pay_for": "43647",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1776",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Invoice #21",
+            "description": "1",
+            "amount": "23900",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1777",
+            "pay_to": "Taras Smetanyuk",
+            "pay_for": "Until 31st",
+            "amount": "1600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1778",
+            "pay_to": "Manuet Gaytan",
+            "pay_for": "2240 Larkin #104;#204",
+            "description": "Counter TOP 100%",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1779",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1780",
+            "pay_to": "Iura",
+            "pay_for": "1480 Larkin Siding",
+            "amount": "12000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1781",
+            "pay_for": "935 O’Farrell #27 Door",
+            "amount": "336",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1782",
+            "pay_to": "Jose Marila",
+            "pay_for": "795 Pine Garbage",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1783",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "726 Bush",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/26"
+        },
+        {
+            "number": "1784",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "Bonuss",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/24"
+        },
+        {
+            "number": "1785",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "Inv. #14",
+            "amount": "6175",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/25"
+        },
+        {
+            "number": "1786",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1787",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv. #30",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/26"
+        },
+        {
+            "number": "1788",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1789",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "2237  Market",
+            "description": "Global Arch Project",
+            "amount": "6500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/29"
+        },
+        {
+            "number": "1790",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "1395 Union#3",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/29"
+        },
+        {
+            "number": "1791",
+            "pay_to": "European Design",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/29"
+        },
+        {
+            "number": "1792",
+            "pay_to": "Peter Soroutchan",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/30"
+        },
+        {
+            "number": "1793",
+            "pay_to": "Peter Soroutchan",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1794",
+            "pay_to": "Vadzim  Finski",
+            "pay_for": "Time sh #3",
+            "amount": "2880",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1795",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "1955 Leavenworth#36",
+            "description": "TILE",
+            "amount": "1636",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1796",
+            "pay_to": "Vladimir Bukin",
+            "pay_for": "Market ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1797",
+            "pay_to": "Sergiy",
+            "pay_for": "1395 Union#3",
+            "amount": "5800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1798",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv. #33",
+            "amount": "448",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1799",
+            "pay_to": "Ion Bolea",
+            "pay_for": "Inv. #34",
+            "amount": "3577",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1803",
+            "pay_to": "Nicolae Garabut",
+            "pay_for": "Gift",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/31"
+        },
+        {
+            "number": "1802",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Avance",
+            "amount": "5500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1804",
+            "pay_to": "Railman Electric",
+            "pay_for": "990 Fulton",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1805",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1806",
+            "pay_to": "Vladimir Danilyuk",
+            "pay_for": "7/15/19-7/31/19",
+            "amount": "2825",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1807",
+            "pay_to": "Taras",
+            "pay_for": "Avance",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1808",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1809",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "Until 7/31/19",
+            "amount": "3080",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1810",
+            "pay_to": "Aleksandre Davitadze",
+            "amount": "2415",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1811",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Until 7/31/19",
+            "amount": "5200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1812",
+            "pay_to": "Petru Vdovicenco",
+            "pay_for": "Bonuss",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/01"
+        },
+        {
+            "number": "1813",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Market ",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/02"
+        },
+        {
+            "number": "1814",
+            "pay_to": "?",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1815",
+            "pay_to": "?",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1816",
+            "pay_to": "?",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1817",
+            "pay_to": "Golden Coast Remod",
+            "pay_for": "1480 Larkin ",
+            "amount": "15000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/08"
+        },
+        {
+            "number": "1818",
+            "pay_to": "Volha Bialko",
+            "pay_for": "6/24/19 - 8/7/19",
+            "amount": "4048",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/08"
+        },
+        {
+            "number": "1819",
+            "pay_to": "Omar",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1820",
+            "pay_to": "Global Arch Inc",
+            "amount": "2700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/08"
+        },
+        {
+            "number": "1821",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv. #30",
+            "amount": "3930",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/11"
+        },
+        {
+            "number": "1822",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv. #20",
+            "amount": "24750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/12"
+        },
+        {
+            "number": "1823",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv. #21",
+            "amount": "23900",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/15"
+        },
+        {
+            "number": "1824",
+            "pay_to": "Peter Soroutchan",
+            "amount": "1350",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/09"
+        },
+        {
+            "number": "1825",
+            "pay_to": "?",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1826",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "935 O’Farrell ",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/12"
+        },
+        {
+            "number": "1827",
+            "pay_to": "European Design",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/11"
+        },
+        {
+            "number": "1828",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Reimbursement",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/09"
+        },
+        {
+            "number": "1829",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "DBI-CCSF",
+            "description": "2239 Market str",
+            "amount": "3514.39",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/09"
+        },
+        {
+            "number": "1830",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "Payroll 8/1/19-8/15/19",
+            "description": "3.666666667",
+            "amount": "2496.47",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/15"
+        },
+        {
+            "number": "1831",
+            "pay_to": "Petru Vdovicenco",
+            "pay_for": "Payroll 8/1/19-8/15/19",
+            "amount": "4418.81",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/15"
+        },
+        {
+            "number": "1832",
+            "pay_to": "Manuet Gaytan",
+            "pay_for": "2115 Hyde; 4130 Cezar",
+            "amount": "3100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1833",
+            "pay_to": "Vadzim  Finski",
+            "pay_for": "7/29/19-8/16/19",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1834",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "8/1/19-8/15/19",
+            "amount": "4400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1835",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "8/1/19-8/15/19",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1836",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1837",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "726 Bush#404",
+            "amount": "712.34",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1838",
+            "pay_to": "Vladimir Danilyuk",
+            "pay_for": "8/1/19-8/14/19",
+            "amount": "2150",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/19"
+        },
+        {
+            "number": "1839",
+            "pay_to": "Sergey Belilovskiy",
+            "pay_for": "7/1/19 - 8/15/19",
+            "amount": "6440",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/19"
+        },
+        {
+            "number": "1840",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "8/1/19-8/15/19",
+            "amount": "3115",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1841",
+            "pay_to": "Aleksandre Davitadze",
+            "pay_for": "8/1/19-8/15/19",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1842",
+            "pay_to": "Sergei Titomirov",
+            "pay_for": "6/29/19-7/16/19",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1843",
+            "pay_to": "Timofey Soroutchan",
+            "pay_for": "8/2/19-8/15/19",
+            "amount": "2375",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1844",
+            "pay_to": "Arredondo Joshua Jordan",
+            "pay_for": "8/2/19-8/15/19",
+            "amount": "2375",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1845",
+            "pay_to": "Fulga  Nicolae",
+            "pay_for": "8/5/19-8/16/19",
+            "amount": "2200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1846",
+            "pay_to": "Boboc Gheorge",
+            "pay_for": "8/5/19-8/16/19",
+            "amount": "2200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1847",
+            "pay_to": "Alexandr Boistean",
+            "pay_for": "8/1/19-8/9/19",
+            "amount": "1400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1848",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "1395 Union#3,#5 ,#8,#9",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1849",
+            "pay_to": "Timofey Soroutchan",
+            "pay_for": "Pine, Union Garbage",
+            "amount": "250",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1850",
+            "pay_to": "Grigore Crudu",
+            "pay_for": "8/5/19-8/15/19",
+            "amount": "1975",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/16"
+        },
+        {
+            "number": "1851",
+            "pay_to": "Insurance",
+            "pay_for": "Jenny Su",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/20"
+        },
+        {
+            "number": "1852",
+            "pay_to": "European Design",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/21"
+        },
+        {
+            "number": "1853",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "1656 Leavenworth",
+            "amount": "2690",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/21"
+        },
+        {
+            "number": "1854",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "2239 Market",
+            "amount": "9500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/21"
+        },
+        {
+            "number": "1855",
+            "pay_to": " Global Arch",
+            "pay_for": "2239 Market",
+            "amount": "9500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/07/21"
+        },
+        {
+            "number": "1856",
+            "pay_to": "Fidelity National Title",
+            "pay_for": "Santa Rosa House",
+            "description": "Plan A, Lot #141",
+            "amount": "8500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/28"
+        },
+        {
+            "number": "1857",
+            "pay_to": "Fidelity National Title",
+            "pay_for": "Santa Rosa House",
+            "description": "Plan B, Lot #141",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/28"
+        },
+        {
+            "number": "1858",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "44013",
+            "amount": "9500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/01"
+        },
+        {
+            "number": "1859",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "44044",
+            "amount": "9500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/31"
+        },
+        {
+            "number": "1860",
+            "pay_to": "Golden ",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1861",
+            "pay_to": "Golden ",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1862",
+            "pay_to": "Timofey Soroutchan",
+            "pay_for": "T/S #2 ",
+            "amount": "2525",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/28"
+        },
+        {
+            "number": "1863",
+            "pay_to": "Arredondo Joshua Jordan",
+            "pay_for": "T/S #2 ",
+            "amount": "2525",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/28"
+        },
+        {
+            "number": "1864",
+            "pay_to": "Omar",
+            "amount": "1552",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/29"
+        },
+        {
+            "number": "1865",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Inv. #138; 139; 140",
+            "amount": "4330",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1866",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1867",
+            "pay_to": "Denis Lapata",
+            "pay_for": "935 O’Farrell , LOBBY",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1868",
+            "pay_to": "George Kvaseladze",
+            "amount": "2820",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1869",
+            "pay_to": "George Kvaseladze",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1870",
+            "pay_to": "European Design",
+            "pay_for": "8/22-8/30",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1871",
+            "pay_to": "SEIKO",
+            "pay_for": "990  Electric",
+            "description": "Isues",
+            "amount": "2500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1872",
+            "pay_to": "Sergei Titomirov",
+            "pay_for": "8/19/19-8/30/19",
+            "amount": "2800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1873",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "8/16/19-8/30/19",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1874",
+            "pay_to": "Vadzim  Finski",
+            "pay_for": "8/19/19-8/30/19",
+            "amount": "2695",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/08/30"
+        },
+        {
+            "number": "1875",
+            "pay_to": "Gift",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1876",
+            "pay_to": "Boboc Gheorge",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1877",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1878",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1879",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1880",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "Avance",
+            "amount": "1500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/02"
+        },
+        {
+            "number": "1881",
+            "pay_to": "Sergey Belilovskiy",
+            "pay_for": "Reimbursement",
+            "amount": "4943.65",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/04"
+        },
+        {
+            "number": "1882",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Ceazer Chaves",
+            "amount": "2898",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/04"
+        },
+        {
+            "number": "1883",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "Salary",
+            "description": "8/15/19-8/31/19",
+            "amount": "2273.09",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/05"
+        },
+        {
+            "number": "1884",
+            "pay_to": "Aleksandre Davitadze",
+            "pay_for": "Salary",
+            "amount": "2273.09",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/05"
+        },
+        {
+            "number": "1885",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Invoice #141, #142",
+            "amount": "4500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/05"
+        },
+        {
+            "number": "1886",
+            "pay_to": "Vlas Company",
+            "pay_for": "1950 Franklin, 1656 Leavenworth, 2238 Hyde, 726 Bush",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/06"
+        },
+        {
+            "number": "1887",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "-"
+        },
+        {
+            "number": "1888",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "-"
+        },
+        {
+            "number": "1889",
+            "pay_to": "Yan-Hon Au",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1890",
+            "pay_to": "Unicorn Consulting",
+            "amount": "5800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1891",
+            "pay_to": "Unicorn Consulting",
+            "amount": "5800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1892",
+            "pay_to": "Louie Lee",
+            "pay_for": "Sept",
+            "amount": "4200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/10"
+        },
+        {
+            "number": "1893",
+            "pay_to": "Rutgers Chow",
+            "description": "?-",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/06"
+        },
+        {
+            "number": "1894",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Materials",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1895",
+            "pay_to": "Sergey Belilovskiy",
+            "pay_for": "Salary",
+            "description": "8/16/19 - 9/6/19",
+            "amount": "4560",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/06"
+        },
+        {
+            "number": "1896",
+            "pay_to": "Sergey Belilovskiy",
+            "pay_for": "Reimbursement",
+            "amount": "470",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/06"
+        },
+        {
+            "number": "1897",
+            "pay_to": "Aleh Vasilievich Kavaleuski",
+            "pay_for": "Salary 8 days",
+            "amount": "1280",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/06"
+        },
+        {
+            "number": "1898",
+            "pay_to": "Volha Bialko",
+            "description": "8/9/19-9/6/19",
+            "amount": "2392",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/06"
+        },
+        {
+            "number": "1899",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "4130 Cesar Chavez #23 ($4000.0); 2239 Market ($875.0)",
+            "amount": "4875",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1900",
+            "pay_to": "Crss Soto",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1901",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Materials",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1902",
+            "pay_to": "Yurie Vlas",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1903",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Invoice #31",
+            "amount": "10550",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1904",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv.#22",
+            "amount": "4450",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1905",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Expenses",
+            "amount": "3771.47",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1906",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Expenses",
+            "amount": "570.81",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/13"
+        },
+        {
+            "number": "1907",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "Bush, Leavenworth,Union",
+            "amount": "2190",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/16"
+        },
+        {
+            "number": "1908",
+            "pay_to": "Alexandr Boistean",
+            "pay_for": "Salary",
+            "description": "8/26/19-8/31/19",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/17"
+        },
+        {
+            "number": "1909",
+            "pay_to": "Grigore Crudu",
+            "pay_for": "Salary",
+            "description": "9/1/19-9/15/19",
+            "amount": "2400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/17"
+        },
+        {
+            "number": "1910",
+            "pay_to": "Nicolae Fulda",
+            "pay_for": "Salary",
+            "description": "9/1/19-9/15/19",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/17"
+        },
+        {
+            "number": "1911",
+            "pay_to": "Jheorghe Boboc",
+            "pay_for": "Salary",
+            "description": "9/1/19-9/15/19",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/17"
+        },
+        {
+            "number": "1912",
+            "pay_to": "European Design",
+            "pay_for": "1125 Broadway; 20th str. + Reimbursement",
+            "description": "560 Reimbursement",
+            "amount": "1560",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1913",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "1395 Union#3,#5 ",
+            "description": "Reimbursement $485.0",
+            "amount": "3585",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1914",
+            "pay_to": "Kirill Klamer",
+            "pay_for": "1955 Leavenworth#11;#36",
+            "description": "9 days work 9/3/19-9/13/19",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1915",
+            "pay_to": "Peter Soroutchan",
+            "pay_for": "21 str. Zhenya",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1916",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv.#26",
+            "amount": "16780",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1917",
+            "pay_to": "Criss Soto",
+            "pay_for": "795 Pine #24,#34,Finish #44,#54 Tape",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1918",
+            "pay_to": "Ivaylo Stoykov Ivanov Anatasov",
+            "pay_for": "2238 Hyde #14",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1919",
+            "pay_to": "Amilcar A Salguero",
+            "pay_for": "1395 Union#3,#5 ,#8,#9",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1920",
+            "pay_to": "Aliaksei Arol",
+            "description": "9/2/19-9/13/19",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/20"
+        },
+        {
+            "number": "1921",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "950 Franklin#1($650), 726 Bush ($570), 2240 Larkin #104,#204 ($2125), Union ($6600)",
+            "amount": "9945",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/23"
+        },
+        {
+            "number": "1922",
+            "pay_to": "Gaytan Marble “Granite&Quartz”",
+            "pay_for": "1955 Leavenworth#11;#36; 1950 Franklin#1; 1956 Leavenworth #10",
+            "amount": "7200",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/24"
+        },
+        {
+            "number": "1923",
+            "pay_to": "Amilcar A Salguero",
+            "pay_for": "1395 Union#3,#5 ",
+            "description": "Drywall",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/09/27"
+        },
+        {
+            "number": "1924",
+            "pay_to": "Aidarbek Orozobekov",
+            "amount": "6635",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/02"
+        },
+        {
+            "number": "1925",
+            "pay_to": "Andrii Yuzko",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/02"
+        },
+        {
+            "number": "1926",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "Reimbursement",
+            "amount": "139.3",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/02"
+        },
+        {
+            "number": "1927",
+            "pay_to": "Kirill Klamer",
+            "amount": "2260",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/02"
+        },
+        {
+            "number": "1928",
+            "pay_to": "Global Arch Inc",
+            "amount": "6033.64",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/02"
+        },
+        {
+            "number": "1929",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/03"
+        },
+        {
+            "number": "1930",
+            "pay_to": "Kashkayan Arutyun",
+            "pay_for": "795 Pine #64",
+            "amount": "400",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/03"
+        },
+        {
+            "number": "1931",
+            "pay_to": "Ivaylo Construction",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/03"
+        },
+        {
+            "number": "1932",
+            "pay_to": "Grigore Crudu",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/04"
+        },
+        {
+            "number": "1933",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1934",
+            "pay_to": "Grigore Crudu",
+            "amount": "5600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/04"
+        },
+        {
+            "number": "1935",
+            "pay_to": "GAA",
+            "amount": "3050",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/08"
+        },
+        {
+            "number": "1936",
+            "pay_to": "European Design",
+            "amount": "1300",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/08"
+        },
+        {
+            "number": "1937",
+            "pay_to": "Blyss  Construction Golden Coast",
+            "amount": "25000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/08"
+        },
+        {
+            "number": "1938",
+            "pay_to": "Andrii Yuzko",
+            "pay_for": "Bonuss",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/09"
+        },
+        {
+            "number": "1939",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1940",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "272 Dalewood",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/09"
+        },
+        {
+            "number": "1941",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "795 Pine #24",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/09"
+        },
+        {
+            "number": "1942",
+            "pay_to": "Lee Kim",
+            "pay_for": "Reimbursement",
+            "amount": "4600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/06"
+        },
+        {
+            "number": "1943",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/09"
+        },
+        {
+            "number": "1944",
+            "pay_to": "Visa Flooring ",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/09"
+        },
+        {
+            "number": "1945",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1946",
+            "pay_to": "GAA 30%",
+            "pay_for": "3659 20th st",
+            "description": "1st check",
+            "amount": "8500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/10"
+        },
+        {
+            "number": "1947",
+            "pay_to": "Stefan Gilca",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/11"
+        },
+        {
+            "number": "1948",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv. #35",
+            "amount": "10780",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/10"
+        },
+        {
+            "number": "1949",
+            "pay_to": "GAA",
+            "pay_for": "Union Vanitys",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/15"
+        },
+        {
+            "number": "1950",
+            "pay_to": "Blyss  Construction Golden Coast",
+            "pay_for": "1480 Larkin ",
+            "amount": "25000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/17"
+        },
+        {
+            "number": "1951",
+            "pay_to": "Unicorn Consulting",
+            "amount": "17190",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/17"
+        },
+        {
+            "number": "1952",
+            "pay_to": "Sergey",
+            "pay_for": "Materials",
+            "amount": "5593.49",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/17"
+        },
+        {
+            "number": "1953",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Market Ceazer Chaves",
+            "amount": "19215",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/17"
+        },
+        {
+            "number": "1954",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "September Muna",
+            "amount": "10000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/17"
+        },
+        {
+            "number": "1955",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1956",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1957",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Inv. #152",
+            "amount": "5825",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1958",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "Union st",
+            "description": "1",
+            "amount": "7000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/21"
+        },
+        {
+            "number": "1959",
+            "pay_to": "Igor Voloc",
+            "pay_for": "Daily until",
+            "amount": "2600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/19"
+        },
+        {
+            "number": "1960",
+            "pay_to": "Vlas Company",
+            "pay_for": "Inv. #?",
+            "amount": "5420",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1961",
+            "pay_to": "Valmas Flooring Inc",
+            "pay_for": "795 Union #24 (Foor,Door,Trims,Basebord)",
+            "description": "1st check",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1962",
+            "pay_to": "Kirill Klamer",
+            "pay_for": "Overtime",
+            "description": "Till 10/18/19",
+            "amount": "345",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1963",
+            "pay_to": "Void",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1964",
+            "pay_to": "Kirill Klamer",
+            "pay_for": "10/1/19-10/15/19",
+            "amount": "2260",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1965",
+            "pay_to": "Yauheni Berlinski",
+            "pay_for": "10/1/19-10/15/19",
+            "amount": "1701",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1966",
+            "pay_to": "Dzmitry Hancharenka ",
+            "pay_for": "10/1/19-10/15/19",
+            "amount": "1417.05",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1967",
+            "pay_to": "Sergei Titomirov",
+            "pay_for": "Overtime",
+            "amount": "560",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/18"
+        },
+        {
+            "number": "1968",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Until 9/31/19",
+            "description": "+ credit",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/19"
+        },
+        {
+            "number": "1969",
+            "pay_to": "Aliaksei Arol",
+            "pay_for": "Until 10/15/19",
+            "description": "+ credit",
+            "amount": "4800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/19"
+        },
+        {
+            "number": "1970",
+            "pay_to": "Aidarbek Orozobekov",
+            "amount": "1700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/25"
+        },
+        {
+            "number": "1971",
+            "pay_to": "Valmas Flooring Inc",
+            "pay_for": "795 Pine #24",
+            "amount": "5850",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/25"
+        },
+        {
+            "number": "1972",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "1395 Union",
+            "description": "1",
+            "amount": "7000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "20/25/19"
+        },
+        {
+            "number": "1973",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Inv. #150; 151; 153",
+            "amount": "3605.88",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/26"
+        },
+        {
+            "number": "1974",
+            "pay_to": "Volha Bialko",
+            "amount": "3312",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/25"
+        },
+        {
+            "number": "1975",
+            "pay_to": "European Design",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/24"
+        },
+        {
+            "number": "1976",
+            "pay_to": "Doru",
+            "amount": "11000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "1977",
+            "pay_to": "GAA",
+            "pay_for": "2238 Hyde",
+            "description": "For extra work",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/28"
+        },
+        {
+            "number": "1978",
+            "pay_to": "GAA",
+            "pay_for": "1125 Broadway",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/28"
+        },
+        {
+            "number": "1979",
+            "pay_to": "Precision Plumbing",
+            "description": "All CO’s",
+            "amount": "7130",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/29"
+        },
+        {
+            "number": "1980",
+            "pay_to": "Precision Plumbing",
+            "pay_for": "Inv. #1983",
+            "amount": "20000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/31"
+        },
+        {
+            "number": "1981",
+            "pay_to": "Aidarbek Orozobekov",
+            "pay_for": "Lombard",
+            "amount": "3500",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/29"
+        },
+        {
+            "number": "1982",
+            "pay_to": "Nico Pro Construction",
+            "amount": "4800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/31"
+        },
+        {
+            "number": "1983",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "Inv. #154",
+            "amount": "2700",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/31"
+        },
+        {
+            "number": "1984",
+            "pay_to": "European Design",
+            "pay_for": "990 Geary",
+            "amount": "1000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/31"
+        },
+        {
+            "number": "1985",
+            "pay_to": "Aleksandre Davitadze",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2426.29",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1986",
+            "pay_to": "Eduard Levoni Poghosyan",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2457.96",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1987",
+            "pay_to": "Vadzim  Finski",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2333.17",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1988",
+            "pay_to": "Stefan Gilca",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2426.29",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1989",
+            "pay_to": "Kirill Klamer",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2661.66",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1990",
+            "pay_to": "Global Arch Inc",
+            "pay_for": "Inv. #29",
+            "amount": "17550",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "1991",
+            "pay_to": "Sergey Belilovskiy",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "3010.86",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1992",
+            "pay_to": "Sergei Titomirov",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2700.17",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1993",
+            "pay_to": "Alexandr Boistean",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "365.4",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1994",
+            "pay_to": "Artur Ivanovich",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2038.48",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1995",
+            "pay_to": "Denis Lapata",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "3261.95",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1996",
+            "pay_to": "Yauheni Berlinski",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "2000.63",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1997",
+            "pay_to": "Dzmitry Hancharenka ",
+            "pay_for": "10/16/19-10/31/19",
+            "amount": "1994.1",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/04"
+        },
+        {
+            "number": "1998",
+            "pay_to": "Ivaylo Construction",
+            "pay_for": "Reimbursement",
+            "amount": "425.57",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "1999",
+            "pay_to": "Ivaylo Construction",
+            "pay_for": "795 Pine; 272 Dalewood",
+            "description": "1",
+            "amount": "6000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/31"
+        },
+        {
+            "number": "2000",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "Jones and Pine",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "2001",
+            "pay_to": "Oleg Meliashvili",
+            "amount": "9000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "2002",
+            "pay_to": "Anatoliy Fedchyk",
+            "pay_for": "44105",
+            "amount": "750",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "2003",
+            "pay_to": "Igor Voloc",
+            "pay_for": "44105",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "2004",
+            "pay_to": "Vlas Company",
+            "amount": "8000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/10/31"
+        },
+        {
+            "number": "2005",
+            "pay_to": "Vlas Company",
+            "pay_for": "Union-Pine",
+            "amount": "2180",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/05"
+        },
+        {
+            "number": "2006",
+            "pay_to": "Valmas Flooring Inc",
+            "pay_for": "Pine",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/12"
+        },
+        {
+            "number": "2007",
+            "pay_to": "Peter Soroutchan",
+            "pay_for": "23 rd str",
+            "description": "1st",
+            "amount": "2000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "1970/01/01"
+        },
+        {
+            "number": "2008",
+            "pay_to": "Iryna Hancharenka",
+            "pay_for": "44105",
+            "amount": "600",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2019/11/07"
+        },
+        {
+            "number": "2123",
+            "pay_to": "Yauheni Berlinski",
+            "pay_for": "12/16/19-12/31/19",
+            "amount": "1410",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/02"
+        },
+        {
+            "number": "2124",
+            "pay_to": "Valeriy Solovyev",
+            "pay_for": "12/16/19-12/31/19",
+            "amount": "960",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/02"
+        },
+        {
+            "number": "2125",
+            "pay_to": "Vlas Company",
+            "pay_for": "44166",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/02"
+        },
+        {
+            "number": "2126",
+            "pay_to": "SF HardWood Floor",
+            "pay_for": "828 Jones#4",
+            "description": "Inv.#101",
+            "amount": "1800",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/07"
+        },
+        {
+            "number": "2127",
+            "pay_to": "Rutgers Chow",
+            "amount": "4890",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/08"
+        },
+        {
+            "number": "2128",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "1360 Lombard #501",
+            "description": "0.5",
+            "amount": "3000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/08"
+        },
+        {
+            "number": "2129",
+            "pay_to": "Sergii Suvorov",
+            "pay_for": "12/15/19-12/31/19",
+            "description": "$256 reimbursement",
+            "amount": "7756",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/08"
+        },
+        {
+            "number": "2130",
+            "pay_to": "Ivaylo Construction",
+            "pay_for": "44166",
+            "amount": "6324",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/13"
+        },
+        {
+            "number": "2131",
+            "pay_to": "Peter Soroutchan",
+            "pay_for": "23rd st",
+            "amount": "4000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/11"
+        },
+        {
+            "number": "2132",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "Clay",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/11"
+        },
+        {
+            "number": "2133",
+            "pay_to": "Salguero’s Handy",
+            "pay_for": "Clay",
+            "amount": "5000",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/11"
+        },
+        {
+            "number": "2134",
+            "pay_to": "Jenny Su",
+            "pay_for": "Inv.#2269",
+            "amount": "1100",
+            "created_at": "2020-01-14",
+            "updated_at": "2020-01-14",
+            "date": "2020/01/12"
+        }
+    ]
