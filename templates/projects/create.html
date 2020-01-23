@@ -31,7 +31,7 @@
                 <div class="col-12">
                     <div class="card card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Create Check</h3>
+                            <h3 class="card-title">Create Project</h3>
                         </div>
                         <!-- /.card-header -->
                         <!-- form start -->
@@ -40,37 +40,128 @@
                             <div class="card-body">
                                 <div class="form-group">
                                     <div class="row">
-                                        <div class="col-1">
-                                            <label>CK#</label>
-                                            <input name="number" type="text" class="form-control" placeholder="Enter Number" value="{{ check.number }}">
+                                        <div class="col">
+                                            <label>Legal Entity</label>
+                                            <input name="legal_entity" type="text" class="form-control"  value="{{ item.legal_entity }}">
                                         </div>
-                                        <div class="col-1">
-                                            <label>Date</label>
-                                            <div class="input-group">
-                                                <input name="date" type="text" id="check_date" class="form-control" value="{{ check.date|date:'m/d/Y' }}">
-                                            </div>
+                                        <div class="col">
+                                            <label>Portfolio</label>
+                                            <input name="portfolio" type="text" class="form-control"  value="{{ item.portfolio }}">
                                         </div>
-                                        <div class="col-4">
-                                            <label>Pay To</label>
-                                            <input name="pay_to" type="text" class="form-control" placeholder="Enter Phone" value="{{ check.pay_to }}">
+                                        <div class="col">
+                                            <label>Address</label>
+                                            <input name="address" type="text" class="form-control"  value="{{ item.address }}">
                                         </div>
-                                        <div class="col-4">
-                                            <label>Pay For</label>
-                                            <input name="pay_for" type="text" class="form-control" placeholder="Enter Address" value="{{ check.pay_for }}">
+                                        <div class="col">
+                                            <label>Unit</label>
+                                            <input name="unit" type="number" class="form-control"  value="{{ item.unit }}">
                                         </div>
-                                        <div class="col-2">
-                                        <div class="form-group">
-                                            <label for="">Amount</label>
-                                            <input name="amount" type="text" class="form-control" placeholder="Enter Address" value="{{ check.amount }}">
+                                        <div class="col">
+                                            <label>Zip</label>
+                                            <input name="zip" type="number" class="form-control"  value="{{ item.zip }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>City_state</label>
+                                            <input name="city_state" type="text" class="form-control"  value="{{ item.city_state }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>Passwords</label>
+                                            <input name="passwords" type="text" class="form-control"  value="{{ item.passwords }}">
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <label>Bedrooms</label>
+                                            <input name="bedrooms" type="number" class="form-control"  value="{{ item.bedrooms }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>Bathrooms</label>
+                                            <input name="bathrooms" type="number" class="form-control"  value="{{ item.bathrooms }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>SqFt</label>
+                                            <input name="sqFt" type="text" class="form-control"  value="{{ item.sqFt }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>Job Number</label>
+                                            <input name="jobNumber" type="text" class="form-control"  value="{{ item.jobNumber }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>Percent</label>
+                                            <input name="percent" type="text" class="form-control"  value="{{ item.percent }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>Start Date</label>
+                                            <input name="start_date" type="date" class="form-control"  value="{{ item.start_date|date:'Y-m-d' }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>End Date</label>
+                                            <input name="end_date" type="date" class="form-control"  value="{{ item.end_date|date:'Y-m-d' }}">
+                                        </div>
+                                        <div class="col">
+                                            <label>Status</label>
+                                            <select name="status" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
+                                                <option value selected> ----- </option>
+                                                {% for status in status_type %}
+                                                    <option value="{{ status }}" {% if status == item.status %}selected="selected"{% endif %}>{{ status }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <label>PM EPI</label>
+                                            <select name="pm_epi" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
+                                                <option value selected> ----- </option>
+                                                {% for pm_epi in pm_epi_list %}
+                                                    <option value="{{ pm_epi.id }}" {% if pm_epi.id == item.pm_epi.id %}selected="selected"{% endif %}>{{ pm_epi }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <label>Resident Manager</label>
+                                            <select name="rm" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
+                                                <option value selected> ----- </option>
+                                                {% for rm in rm_list %}
+                                                    <option value="{{ rm.id }}" {% if rm.id == item.rm.id %}selected="selected"{% endif %}>{{ rm }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <label>Project Manager</label>
+                                            <select name="pm" class="form-control select2 select2-hidden-accessible"   style="width: 100%;">
+                                                <option value selected> ----- </option>
+                                                {% for pm in pm_list %}
+                                                    <option value="{{ pm.id }}" {% if pm.id == item.pm.id %}selected="selected"{% endif %}>{{ pm }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <label>Design Package</label>
+                                            <select name="design_package" class="form-control select2 select2-hidden-accessible"   style="width: 100%;">
+                                                <option value selected> ----- </option>
+                                                {% for design_package in design_package_list %}
+                                                    <option value="{{ design_package.id }}" {% if design_package.id == item.design_package.id %}selected="selected"{% endif %}>{{ design_package }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+                                        <div class="col">
+                                            <label>General Contractor</label>
+                                            <select name="general_contractor" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
+                                                <option value selected> ----- </option>
+                                                {% for general_contractor in general_contractor_list %}
+                                                    <option value="{{ general_contractor.id }}" {% if general_contractor.id == item.general_contractor.id %}selected="selected"{% endif %}>{{ general_contractor }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label for="">Description</label>
-                                            <textarea name="description" class="form-control" cols="30" rows="10">{{ check.description }}</textarea>
+                                            <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
                                         </div>
                                     </div>
 

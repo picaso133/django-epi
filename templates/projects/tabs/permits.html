@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-12">
+   <div class="card card-info">
+      <div class="card-header">
+         <h3 class="card-title">Inspections</h3>
+         <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fas fa-minus"></i></button>
+         </div>
+      </div>
+      <div class="card-body p-0">
+         <table class="table">
+            <thead>
+               <tr>
+                  <th>Type</th>
+                  <th>Number</th>
+                  <th>Start Date</th>
+                  <th>End Date</th>
+                  <th>Description</th>
+               </tr>
+            </thead>
+            <tbody>
+               {% for permit in item.permits.all %}
+               <tr>
+                   <td>{{ permit.type }}</td>
+                   <td><a href="{% url 'permit_read' permit.id %}">{{ permit.number }}</a></td>
+                   <td>{{ permit.start_date|date:'m/d/Y' }}</td>
+                   <td>{{ permit.end_date|date:'m/d/Y' }}</td>
+                   <td>{{ permit.description|slice:100 }}...</td>
+               </tr>
+               {% endfor %}
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>
+</div>

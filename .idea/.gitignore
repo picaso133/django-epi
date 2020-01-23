@@ -1,2 +1,16 @@
 # Default ignored files
 /workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+*.pyc
+*~
+/.vscode
+__pycache__
+myvenv
+db.sqlite3
+/static
+/uploads
+.DS_Store

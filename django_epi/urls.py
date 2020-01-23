@@ -19,6 +19,14 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
+    url(r'^timesheets/', include('timesheets.urls')),
+    url(r'^inventory/', include('inventory.urls')),
+    url(r'^orders/', include('orders.urls')),
+    url(r'^suppliers/', include('suppliers.urls')),
+    url(r'^change_orders/', include('change_orders.urls')),
+    url(r'^project_managers/', include('project_managers.urls')),
+    url(r'^resident_managers/', include('resident_managers.urls')),
+    url(r'^permits/', include('permits.urls')),
     url(r'^inspection_types/', include('inspection_types.urls')),
     url(r'^inspections/', include('inspections.urls')),
     url(r'^projects/', include('projects.urls')),

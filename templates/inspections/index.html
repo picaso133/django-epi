@@ -46,30 +46,29 @@
           <div class="card">
               <!-- /.card-header -->
               <div class="card-body">
-                <table id="inspection_type_table" class="table table-bordered table-condensed">
+                <table id="inspection_table" class="table table-bordered table-condensed">
                   <thead>
                     <tr>
-                        <th>Category</th>
-                        <th>Name</th>
+                        <th>Project</th>
+                        <th>Inspection</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Description</th>
                         <th>Code</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for inspection in list %}
                     <tr>
-                        <td>{{ inspection.date }}</td>
-                        <td><a href="{% url 'inspection_type_update' inspection_type.id %}">{{ inspection_type.name }}</a></td>
-                        <td>{{ inspection_type.code }}</td>
+                        <td>{{ inspection.project }}</td>
+                        <td><a href="{% url 'inspection_update' inspection.id %}">{{ inspection.type }}</a></td>
+                        <td>{{ inspection.date|date:'m/d/Y' }}</td>
+                        <td>{{ inspection.status }}</td>
+                        <td>{{ inspection.description|slice:100 }}</td>
+                        <td>{{ inspection.confirmation_number }}</td>
                     </tr>
                   {% endfor %}
                   </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Category</th>
-                        <th>Name</th>
-                        <th>Code</th>
-                    </tr>
-                </tfoot>
                 </table>
               </div>
             </div>

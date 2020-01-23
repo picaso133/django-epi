@@ -1,0 +1,88 @@
+<div class="row">
+<div class="col-6">
+   <div class="card card-primary">
+      <div class="card-header">
+         <h3 class="card-title">Project: {{ item }}</h3>
+          <div class="card-tools">
+              <a href="{% url 'project_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+          </div>
+      </div>
+      <div class="card-body">
+         <div class="form-group">
+            <label>Job Number:</label>
+            {{ item.jobNumber }}
+         </div>
+         <div class="form-group">
+            <label>Legal Entity:</label>
+            {{ item.legal_entity }}
+         </div>
+         <div class="form-group">
+            <label>Portfolio:</label>
+            {{ item.portfolio }}
+         </div>
+         <div class="row">
+            <div class="col-3">
+               <div class="form-group">
+                  <label>Address:</label>
+                  {{ item.address }}
+               </div>
+            </div>
+            <div class="col-2">
+              <div class="form-group">
+               <label>Unit:</label>
+               #{{ item.unit }}
+              </div>
+           </div>
+            <div class="col-4">
+             <div class="form-group">
+              <label>City/State:</label>
+                 {{ item.city_state }}
+             </div>
+           </div>
+          <div class="col-3">
+           <div class="form-group">
+                  <label>Zip:</label>
+                  {{ item.zip }}
+               </div>
+            </div>
+         </div>
+          <div class="form-group">
+            <label>Passwords:</label>
+            {{ item.passwords }}
+         </div>
+         <div class="row">
+            <div class="col-2">
+               <div class="form-group">
+                  <label>Bedrooms:</label>
+                  {{ item.bedrooms }}
+               </div>
+            </div>
+            <div class="col-2">
+              <div class="form-group">
+               <label>Bathrooms:</label>
+               {{ item.bathrooms }}
+              </div>
+           </div>
+            <div class="col-2">
+             <div class="form-group">
+              <label>sqFt:</label>
+                 {{ item.sqFt }}
+             </div>
+           </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="col-6">
+    <div class="row">
+        <div class="col-12">
+            {% include 'projects/components/pm.html' %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            {% include 'projects/components/rm.html' %}
+        </div>
+    </div>
+</div>
+</div>

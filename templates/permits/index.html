@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Permits</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Permits</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Info boxes -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box">
+              <span class="info-box-icon bg-info elevation-1"><i class="far fa-money-bill-alt"></i></span>
+              <div class="info-box-content">
+                <span class="info-box-text">Total Permits</span>
+                <span class="info-box-number">
+                    {{ list.count }}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix hidden-md-up"></div>
+            <div class="col-12 col-sm-6 col-md-3 offset-md-6 text-right">
+                <a href="{% url 'permit_create' %}" class="btn btn-success">Add</a>
+            </div>
+        </div>
+          <div class="row">
+          <div class="col-12">
+          <div class="card">
+              <div class="card-body">
+                <table id="inspection_table" class="table table-bordered table-condensed">
+                  <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Number</th>
+                        <th>Type</th>
+                        <th>End Date</th>
+                        <th>File</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for item in list %}
+                    <tr>
+                        <td><a href="{% url 'project_read' item.project.id %}">{{ item.project }}</a></td>
+                        <td><a href="{% url 'permit_read' item.id %}">{{ item.number }}</a></td>
+                        <td>{{ item.type }}</td>
+                        <td>{{ item.end_date|date:'m/d/Y' }}</td>
+                        <td><a href="../uploads/{{ item.file }}" target="_blank">{{ item.file }}</a></td>
+                        <td>{{ item.description|slice:100 }}</td>
+                        <td width="150px" align="center">
+                          <a class="btn btn-warning" href="{% url 'permit_update' item.id %}"><i class="fas fa-pencil-alt"></i></a>
+                      </td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+{% endblock content %}

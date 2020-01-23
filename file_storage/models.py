@@ -19,6 +19,12 @@ class Files_storage(models.Model):
         # return str(self.file.size / 1024 / 1024)[:5] + " MB"
         return str(round(self.file.size / 1024, 1)) + " KB"
 
+    def file_path(self):
+        return self.file.path
+
+    def file_url(self):
+        return '../uploads/' + self.file.name
+
     class Meta:
         verbose_name = 'File Storage'
         verbose_name_plural = 'File Storage'

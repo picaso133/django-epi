@@ -5,6 +5,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponseRedirect
+from django.db import models
 
 from .models import Employ, User, Files_storage
 # Create your views here.
@@ -23,50 +24,49 @@ def upload_file(request, key):
     file_in_storage = Files_storage.objects.create(file=filename)
     return file_in_storage
 
-def index(request, template_name='employes/index.html'):
+def index(request, template_name='employees/index.html'):
     employes = Employ.objects.filter()
-    # employes = Employ.objects.filter(is_active=True)
+    # employees = Employ.objects.filter(is_active=True)
     inactive_employes = Employ.objects.filter(is_active=False)
     data = {}
     data['employ_list'] = employes
     data['inactive_count'] = inactive_employes.count()
     return render(request, template_name, data)
 
-def create(request, template_name='employes/create.html'):
+def create(request, template_name='employees/create.html'):
     if request.method == 'POST':
         newEmploy = Employ()
         newEmploy.name = request.POST.get('name', '')
         newEmploy.phone = request.POST.get('phone', '')
         newEmploy.address = request.POST.get('address', '')
         newEmploy.email = request.POST.get('email', '')
-        newEmploy.user = User.objects.get(id=request.POST.get('user'))
+        if request.POST.get('user') != '':
+            newEmploy.user = User.objects.get(id=request.POST.get('user'))
         if request.POST.get('is_active') == 'on':
             newEmploy.is_active = True
         else:
             newEmploy.is_active = False
         newEmploy.save()
 
-        # newEmploy.documents.add(upload_file(request, 'id_document'))
-        # newEmploy.documents.add(upload_file(request, 'contract'))
-        newEmploy.save()
         return redirect('employ_index')
     else:
         return render(request, template_name)
 
-def read(request, pk, template_name='employes/read.html'):
+def read(request, pk, template_name='employees/read.html'):
     employ = get_object_or_404(Employ, pk=pk)
     data = {}
     data['employ'] = employ
     return render(request, template_name, data)
 
-def update(request, pk, template_name='employes/create.html'):
+def update(request, pk, template_name='employees/create.html'):
     employ = get_object_or_404(Employ, pk=pk)
     if request.method == 'POST':
         employ.name = request.POST.get('name', '')
         employ.phone = request.POST.get('phone', '')
         employ.address = request.POST.get('address', '')
         employ.email = request.POST.get('email', '')
-        employ.user = User.objects.get(id=request.POST.get('user'))
+        if request.POST.get('user') != '':
+            employ.user = User.objects.get(id=request.POST.get('user'))
         if request.POST.get('is_active') == 'on':
             employ.is_active = True
         else:
@@ -79,7 +79,7 @@ def update(request, pk, template_name='employes/create.html'):
         return redirect('employ_index')
     return render(request, template_name, {'employ': employ})
 
-def delete(request, pk, template_name='employes/delete.html'):
+def delete(request, pk, template_name='employees/delete.html'):
     employ = get_object_or_404(Employ, pk=pk)
     employ.delete()
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))

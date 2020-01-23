@@ -22,7 +22,7 @@
 <script src="{% static 'plugins/chart.js/Chart.min.js' %}"></script>
 
 <!-- PAGE SCRIPTS -->
-<script src="{% static 'js/pages/dashboard2.js' %}"></script>
+{#<script src="{% static 'js/pages/dashboard2.js' %}"></script>#}
 
 {#<script src="{% static 'plugins/datatables/jquery.dataTables.js' %}"></script>#}
 
@@ -43,14 +43,15 @@
 <script src="{% static 'plugins/jsgrid/jsgrid.min.js' %}"></script>
 <script>
 $(document).ready(function () {
-	$('#employes_table').DataTable({
-		"pageLength": 100
-	});
+    $('#inspection_table').DataTable({"pageLength": 25});
+    $('#employees_table').DataTable({"pageLength": 100});
+    $('#projects_table').DataTable({"pageLength": 25});
+    $('#orders_table').DataTable({"pageLength": 25});
 	$('#checkes_table tfoot th').each(function () {
 		var title = $(this).text();
 		$(this).html('<input type="text" placeholder="Search ' + title + '" />');
 	});
-	var table = $('#checkes_table').DataTable({
+    $('#checkes_table').DataTable({
 		dom: 'Bfrtip',
 		buttons: ['copy', 'excel', 'pdf', 'print'],
 		"pageLength": 10,
@@ -68,23 +69,28 @@ $(document).ready(function () {
 			}, 0);
 			$(api.column(5).footer()).html(pageTotal);
 		}
-	});
-	table.columns().every(function () {
-		var that = this;
-		$('input', this.footer()).on('keyup change clear', function () {
-			if (that.search() !== this.value) {
-				that.search(this.value).draw();
-			}
-		});
-	});
+	}).columns().every(function () {
+        var that = this;
+        $('input', this.footer()).on('keyup change clear', function () {
+            if (that.search() !== this.value) {
+                that.search(this.value).draw();
+            }
+        });
+    });
 
-	$('#user_select2').select2();
-	$('#inspection_type_select2').select2({ width: 'resolve'});
+	$('.select2').select2({ width: 'resolve'});
+	{#$('#user_select2').select2();#}
+	{#$('#inspection_type_select2').select2({ width: 'resolve'});#}
+	{#$('#project_select2').select2({ width: 'resolve'});#}
+	{#$('#supplier_select2').select2({ width: 'resolve'});#}
     {#$('#check_description').summernote();#}
 
 
 	$('#check_date').datepicker({uiLibrary: 'bootstrap4'});
 	$('#inspection_date').datepicker({uiLibrary: 'bootstrap4'});
+	$('#permit_start_date').datepicker({uiLibrary: 'bootstrap4'});
+	$('#permit_end_date').datepicker({uiLibrary: 'bootstrap4'});
+	$('#timepicker').datepicker({uiLibrary: 'bootstrap4', format: 'LT'});
 
 
 });

@@ -31,8 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'timesheets.apps.TimesheetsConfig',
+    'inventory.apps.InventoryConfig',
+    'suppliers.apps.SuppliersConfig',
+    'orders.apps.OrdersConfig',
+    'change_orders.apps.ChangeOrdersConfig',
+    'project_managers.apps.ProjectManagersConfig',
+    'resident_managers.apps.ResidentManagersConfig',
     'inspection_types.apps.InspectionTypesConfig',
     'inspections.apps.InspectionsConfig',
+    'permits.apps.PermitsConfig',
     'checks.apps.ChecksConfig',
     'projects.apps.ProjectsConfig',
     'employees.apps.EmployeesConfig',
@@ -142,16 +150,3 @@ STATICFILES_DIRS = [STATIC_DIR]
 
 MEDIA_URL = '/uploads/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
-
-
-# djang-heroku setting
-import django_heroku
-django_heroku.settings(locals())
-# static files settings
-STATIC_URL = '/static/'
-# location where you will store your static files like bootstrap
-STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, "static"),
-]
-# location where django collect all static files
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")

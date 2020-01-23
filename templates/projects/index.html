@@ -46,7 +46,7 @@
           <div class="card">
               <!-- /.card-header -->
               <div class="card-body">
-                <table id="Projects_table" class="table table-bordered table-condensed">
+                <table id="projects_table" class="table table-bordered table-condensed">
                   <thead>
                     <tr>
                         <th>Job Number</th>
@@ -65,31 +65,42 @@
                   <tbody>
                     {% for project in project_list %}
                     <tr>
-                      <td><a href="{% url 'project_update' project.id %}">{{ project.jobNumber }}</a></td>
-                      <td>{{ project.address}}</td>
-                      <td>{{ project.unit}}</td>
-                      <td>{{ project.passwords }}</td>
-                      <td><a href="#">{{ project.pm }}</a></td>
-                      <td>{{ project.pm_epi }}</td>
-                      <td>{{ project.inspections.type }}</td>
-                      <td>{{ project.design_package }}</td>
-                      <td>{{ project.percent }}</td>
-                      <td>{{ project.status }}</td>
-                      <td>{{ project.end_date|date:'m/d/Y' }}</td>
+                        <td><a href="{% url 'project_read' project.id %}">{{ project.jobNumber }}</a></td>
+                        <td>{{ project.address}}</td>
+                        <td>{{ project.unit}}</td>
+                        <td>{{ project.passwords }}</td>
+                        <td><a href="#">{{ project.pm }}</a></td>
+                        <td>{{ project.pm_epi }}</td>
+                        <td>
+                            {% for inspection in project.inspections.all %}
+                                <a href="{% url 'inspection_read' inspection.id %}">{{ inspection.date|date:'m/d/Y' }} {{ inspection.type }}</a> <br />
+                            {% endfor%}
+                        </td>
+                        <td>{{ project.design_package }}</td>
+                        <td>{{ project.percent }}</td>
+                        <td>{{ project.status }}</td>
+                        <td>{{ project.end_date|date:'m/d/Y' }}</td>
                     </tr>
                   {% endfor %}
                   </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Building</th>
-                        <th>#</th>
-                        <th>Password</th>
-                    </tr>
-                </tfoot>
+                    <tfoot>
+                        <tr>
+                            <th>Job Number</th>
+                            <th>Building</th>
+                            <th>#</th>
+                            <th>Password</th>
+                            <th>PM</th>
+                            <th>PM EPI</th>
+                            <th>Inspections</th>
+                            <th>Design Package</th>
+                            <th>Percent</th>
+                            <th>Status</th>
+                            <th>End Date</th>
+                        </tr>
+                    </tfoot>
                 </table>
               </div>
             </div>
-            <!-- /.card -->
           </div>
         </div>
       </div>

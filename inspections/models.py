@@ -5,7 +5,7 @@ from inspection_types.models import Inspection_type
 class Inspection(models.Model):
     date = models.DateTimeField()
     description = models.TextField(blank=True)
-    status = [
+    status_type = [
         ('Passed', 'Passed'),
         ('Failed', 'Failed'),
         ('Partial', 'Partial'),
@@ -13,13 +13,13 @@ class Inspection(models.Model):
     ]
     status = models.CharField(
         max_length=255,
-        choices=status,
+        choices=status_type,
         default = 'Scheduled'
     )
     confirmation_number = models.IntegerField(blank=True)
 
     type = models.ForeignKey(Inspection_type, models.SET_NULL, blank=True, null=True)
-    project = models.ForeignKey(Project, models.SET_NULL, blank=True, null=True)
+    project = models.ForeignKey(Project, models.SET_NULL, blank=True, null=True, related_name='inspections')
 
     created_at = models.DateTimeField(auto_now=True)
     updated_at = models.DateTimeField(auto_now_add=True)
@@ -29,5 +29,5 @@ class Inspection(models.Model):
         verbose_name_plural = 'Inspections'
 
     def __str__(self):
-        return str(self.type) + ' ' + str(self.confirmation_number)
+        return str(self.type)
 

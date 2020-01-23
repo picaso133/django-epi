@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Change Order {{ item.id }}</h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Change Order {{ item.id }}</li>
+                    </ol>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">Change Order {{ item.id }}</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form enctype="multipart/form-data" method="POST">
+                            {% csrf_token %}
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <label>Number</label>
+                                            <input name="number" type="text" class="form-control" value="{{ item.number }}">
+                                        </div>
+                                        <div class="col-2">
+                                            <label>Date</label>
+                                            <input name="date" type="text" id="permit_start_date" class="form-control" value="{{ item.date|date:'m/d/Y' }}">
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group">
+                                                <label>Status</label>
+                                                <select name="status" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
+                                                    <option value selected> ----- </option>
+                                                    {% for status in statuses %}
+                                                        <option value="{{ status }}" {% if status == item.status %}selected="selected"{% endif %}>{{ status }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-group">
+                                                <label>Project</label>
+                                                <select name="project" class="form-control select2 select2-hidden-accessible"  id="project_select2" style="width: 100%;">
+                                                    <option value selected> ----- </option>
+                                                    {% for project in projects %}
+                                                        <option value="{{ project.id }}" {% if project.id == item.project.id %}selected="selected"{% endif %}>{{ project.address }} #{{ project.unit }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="">Description</label>
+                                                <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <input class="btn btn-primary" type="submit" value="Submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% endblock content %}

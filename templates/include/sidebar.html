@@ -20,37 +20,122 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                <li class="nav-header">Projects</li>
-                <li class="nav-item">
-                    <a href="{% url 'project_index' %}" class="nav-link">
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
                         <i class="nav-icon far fa-building"></i>
-                        <p>Active Projects</p>
+                        <p>Projects <i class="fas fa-angle-left right"></i></p>
                     </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item ">
+                            <a href="{% url 'project_index' %}" class="nav-link {% if 'projects' in request.path %}active{% endif %}">
+                                <i class="nav-icon far fa-building"></i>
+                                <p>Active Projects</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'change_order_index' %}" class="nav-link {% if 'change_orders' in request.path %}active{% endif %}">
+                                <i class="nav-icon fas fa-file-contract"></i>
+                                <p>Change Orders</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'inspection_index' %}" class="nav-link {% if 'inspections' in request.path %}active{% endif %}">
+                                <i class="nav-icon fas fa-pencil-ruler"></i>
+                                <p>Inspection</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'inspection_type_index' %}" class="nav-link {% if 'instection_types' in request.path %}active{% endif %}">
+                                <i class="nav-icon fas fa-pencil-ruler"></i>
+                                <p>Inspection Types</p>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{% url 'supplier_index' %}" class="nav-link {% if 'suppliers' in request.path %}active{% endif %}">
+                                <i class="nav-icon fas fa-parachute-box"></i>
+                                <p>Suppliers</p>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{% url 'order_index' %}" class="nav-link {% if '/orders/' == request.path %}active{% endif %}">
+                                <i class="nav-icon fas fa-file-invoice-dollar"></i>
+                                <p>Orders</p>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{% url 'permit_index' %}" class="nav-link {% if 'permits' in request.path %}active{% endif %}">
+                                <i class="nav-icon far fa-sticky-note"></i>
+                                <p>Permits</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'project_manager_index' %}" class="nav-link {% if 'project_managers' in request.path %}active{% endif %}">
+                                <i class="nav-icon far fa-address-book"></i>
+                                <p>Project Managers</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{% url 'resident_manager_index' %}" class="nav-link {% if 'resident_managers' in request.path %}active{% endif %}">
+                                <i class="nav-icon far fa-address-book"></i>
+                                <p>Resident Managers</p>
+                            </a>
+                        </li>
+
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="{% url 'inspection_index' %}" class="nav-link">
-                        <i class="nav-icon fas fa-pencil-ruler"></i>
-                        <p>Inspection</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{% url 'inspection_type_index' %}" class="nav-link">
-                        <i class="nav-icon fas fa-pencil-ruler"></i>
-                        <p>Inspection Types</p>
-                    </a>
-                </li>
-                <li class="nav-header">Employes</li>
-                <li class="nav-item">
-                    <a href="{% url 'employ_index' %}" class="nav-link">
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-users"></i>
-                        <p>Active Employes</p>
+                        <p>Employes <i class="fas fa-angle-left right"></i></p>
                     </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item ">
+                            <a href="{% url 'inventory_index' %}" class="nav-link">
+                                 <i class="nav-icon fas fa-users"></i>
+                                <p>Active Employes</p>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="{% url 'timesheet_index' %}" class="nav-link">
+                                <i class="nav-icon fas fa-history"></i>
+                                <p>Timesheets</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a href="{% url 'check_index' %}" class="nav-link">
                         <i class="nav-icon far fa-money-bill-alt"></i>
                         <p>Checks</p>
                     </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>Reports <i class="fas fa-angle-left right"></i></p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item ">
+                            <a href="{% url 'project_index' %}" class="nav-link">
+                                <i class="nav-icon fas fa-user-clock"></i>
+                                <p>Time Sheet</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-warehouse"></i>
+                        <p>Inventory <i class="fas fa-angle-left right"></i></p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item ">
+                            <a href="{% url 'inventory_index' %}" class="nav-link">
+                                <i class="nav-icon fas fa-warehouse"></i>
+                                <p>Inventory</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

@@ -7,7 +7,7 @@ colorama==0.4.1
 dj-database-url==0.5.0
 Django==2.2.9
 django-advanced-filters==1.1.1
-django-braces==1.14.0
+django-braces==1e.14.0
 django-filer==1.6.0
 django-heroku==0.3.1
 django-jet==1.0.8

@@ -1,0 +1,66 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Order</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Order</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Order: {{ item.number }}</h3>
+                            <div class="card-tools">
+                                <a href="{% url 'inventory_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label>Number:</label>
+                                {{ item.number }}
+                            </div>
+                            <div class="form-group">
+                                <label>Name</label>
+                                {{ item.name }}
+                            </div>
+                            <div class="form-group">
+                                <label>QTY:</label>
+                                {{ item.qty }}
+                            </div>
+                            <div class="form-group">
+                                <label>Photo:</label>
+                                <a href="{{ item.file.file_url }}" target="_blank">{{ item.file }}</a>
+                            </div>
+                            <div class="form-group">
+                                <label>Category:</label>
+                                {{ item.category.name }}
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Description:</label>
+                                        <div>{{ item.description }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% endblock content %}

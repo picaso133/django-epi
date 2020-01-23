@@ -1,0 +1,41 @@
+<div class="col-12">
+   <div class="card card-info">
+      <div class="card-header">
+         <h3 class="card-title">Drawings</h3>
+         <div class="card-tools">
+            <a href="{% url 'file_storage_assign' 'employ' item.id %}" type="button" class="btn btn-tool" title="Upload" target="_blank" onclick="PopupCenter(this.href, 'File Upload', '500', '500')"><i class="fas fa-upload"></i></a>
+            <a type="button" class="btn btn-tool" title="ZIP"><i class="far fa-file-archive"></i></a>
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fas fa-minus"></i></button>
+         </div>
+      </div>
+      <div class="card-body p-0">
+         <table class="table">
+            <thead>
+               <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                  <th>File Size</th>
+                  <th>File Type</th>
+                  <th></th>
+               </tr>
+            </thead>
+            <tbody>
+               {% for file in item.drawings.all %}
+               <tr>
+                  <td>{{ file }}</td>
+                  <td>{{ file.description }}</td>
+                  <td>{{ file.file_size }}</td>
+                  <td>{{ file.file_type }}</td>
+                  <td class="text-right py-0 align-middle">
+                     <div class="btn-group btn-group-sm">
+                        <a href="{{ file.file_url }}" class="btn btn-info" target="_blank"><i class="fas fa-eye"></i></a>
+                        <a href="{% url 'file_storage_delete' file.id %}" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                     </div>
+                  </td>
+               </tr>
+               {% endfor %}
+            </tbody>
+         </table>
+      </div>
+   </div>
+</div>

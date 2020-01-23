@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Timesheet</h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Timesheet</li>
+                    </ol>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">Timesheet {{ item.number }}</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form enctype="multipart/form-data" method="POST">
+                            {% csrf_token %}
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="form-group">
+                                                <label>Employ</label>
+                                                <select name="employ" class="form-control select2 select2-hidden-accessible"  id="supplier_select2" style="width: 100%;">
+                                                    <option value selected> ----- </option>
+                                                    {% for employ in employees %}
+                                                        <option value="{{ employ.id }}" {% if employ.id == item.employ.id %}selected="selected"{% endif %}>{{ employ.name }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <label>Date</label>
+                                            <input name="date" type="date" class="form-control" value="{{ item.date|date:'Y-m-d' }}">
+                                        </div>
+                                        <div class="col-2">
+                                            <label>Clock In</label>
+                                            <input name="clock_in" type="time" class="form-control" value="{{ item.clock_in|time:'H:i' }}">
+                                        </div>
+                                        <div class="col-2">
+                                            <label>Clock Out</label>
+                                            <input name="clock_out" type="time" class="form-control" value="{{ item.clock_out|time:'H:i' }}">
+                                        </div>
+                                        <div class="col-1">
+                                            <div class="icheck-primary">
+                                                <input name="is_holiday" id="is_holiday" type="checkbox"  {% if item.is_holiday == True %}checked{% endif %} value="True" />
+                                                <label for="is_holiday">Is Holiday</label>
+                                            </div>
+                                            <div class="icheck-primary">
+                                                <input name="is_weekend"  id="is_weekend" type="checkbox"  {% if item.is_weekend == True %}checked{% endif %} value="True" />
+                                                <label for="is_weekend">Is Weekend</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-2">
+                                            <div class="form-group">
+                                                <label>Project</label>
+                                                <select name="project" class="form-control select2 select2-hidden-accessible"  id="project_select2" style="width: 100%;">
+                                                    <option value selected> ----- </option>
+                                                    {% for project in projects %}
+                                                        <option value="{{ project.id }}" {% if project.id == item.project.id %}selected="selected"{% endif %}>{{ project.address }} #{{ project.unit }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-group">
+                                                <label for="">Description</label>
+                                                <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <input class="btn btn-primary" type="submit" value="Submit" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{% endblock content %}
