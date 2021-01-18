@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Change Order {{ item.id }}</h1>
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Change Order {{ item.id }}</li>
+                    </ol>
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <form enctype="multipart/form-data" method="POST">
+                <div class="row">
+                    {% csrf_token %}
+                    <div class="col-8">
+                        <div class="card card-success">
+                            <div class="card-header">
+                                <h3 class="card-title">Document {{ item.number }}</h3>
+                            </div>
+                            {% include 'documents/components/create_form_body.html'  with item=item.document %}
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                    <div class="card card-success">
+                        <div class="card-header">
+                            <h3 class="card-title">Change Order {{ item.id }}</h3>
+                        </div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label>Status</label>
+                                                <select name="status" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
+                                                    <option value selected> ----- </option>
+                                                    {% for status in change_order_statuses %}
+                                                        <option value="{{ status }}" {% if status == item.status %}selected="selected"{% endif %}>{{ status }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <label>Project</label>
+                                                <select name="project" class="form-control select2 select2-hidden-accessible"  id="project_select2" style="width: 100%;">
+                                                    <option value selected> ----- </option>
+                                                    {% for project in projects %}
+                                                        <option value="{{ project.id }}" {% if project.id == item.project.id %}selected="selected"{% endif %}>{{ project.address }} #{{ project.unit }}</option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <input class="btn btn-primary" type="submit" value="Create" />
+                    </div>
+                </div>
+
+
+
+            </form>
+        </div>
+    </section>
+</div>
+
+{% endblock content %}
