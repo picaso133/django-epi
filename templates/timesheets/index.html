@@ -33,7 +33,7 @@
           <div class="col-12">
           <div class="card">
               <div class="card-body">
-                <table id="inspection_table" class="table table-bordered table-condensed">
+                <table id="timesheet_table" class="table table-bordered table-condensed">
                   <thead>
                     <tr>
                         <th>Employ</th>
@@ -41,6 +41,7 @@
                         <th>Date</th>
                         <th>Clock In</th>
                         <th>Clock Out</th>
+                        <th>Hours</th>
                         <th>Description</th>
                     </tr>
                   </thead>
@@ -50,12 +51,24 @@
                         <td>{{ item.employ }}</td>
                         <td>{{ item.project }}</td>
                         <td><a href="{% url 'timesheet_read' item.id %}">{{ item.date|date:'m/d/Y' }}</a></td>
-                        <td>{{ item.clock_in }}</td>
-                        <td>{{ item.clock_out }}</td>
+                        <td>{{ item.clock_in|time:'h:i a' }}</td>
+                        <td>{{ item.clock_out|time:'h:i a' }}</td>
+                        <td>{{ item.hours }}</td>
                         <td>{{ item.description|slice:100 }}</td>
                     </tr>
                   {% endfor %}
                   </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Employ</th>
+                        <th>Project</th>
+                        <th>Date</th>
+                        <th>Clock In</th>
+                        <th>Clock Out</th>
+                        <th>Hours</th>
+                        <th>Description</th>
+                    </tr>
+                </tfoot>
                 </table>
               </div>
             </div>

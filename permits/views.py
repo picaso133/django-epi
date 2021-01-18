@@ -77,8 +77,7 @@ def update(request, pk, template_name='permits/create.html'):
     return render(request, template_name, data)
     pass
 
-def delete(request, pk, template_name='permits/delete.html'):
-    # check = get_object_or_404(Check, pk=pk)
-    # check.delete()
-    # return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
-    pass
+def delete(request, pk):
+    o = get_object_or_404(Permit, pk=pk)
+    o.delete()
+    return redirect('permit_index')

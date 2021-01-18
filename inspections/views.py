@@ -36,11 +36,11 @@ def create(request, template_name='inspections/create.html'):
     # pass
 
 def read(request, pk, template_name='inspections/read.html'):
-    # employ = get_object_or_404(Check, pk=pk)
-    # data = {}
-    # data['employ'] = employ
-    # return render(request, template_name, data)
-    pass
+    item = get_object_or_404(Inspection, pk=pk)
+    data = {
+        'item': item
+    }
+    return render(request, template_name, data)
 
 def update(request, pk, template_name='inspections/create.html'):
     projects = Project.objects.filter()

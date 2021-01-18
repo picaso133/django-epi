@@ -8,12 +8,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Timesheet</h1>
+            <h1 class="m-0 text-dark">Documents</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Timesheet</li>
+              <li class="breadcrumb-item active">Documents</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -26,7 +26,7 @@
         <!-- Info boxes -->
         <div class="row">
             <div class="col-12 text-right p-2">
-                <a href="{% url 'timesheet_create' %}" class="btn btn-success">Add</a>
+                <a href="{% url 'document_create' %}" class="btn btn-success">Add</a>
             </div>
         </div>
           <div class="row">
@@ -36,37 +36,37 @@
                 <table id="timesheet_table" class="table table-bordered table-condensed">
                   <thead>
                     <tr>
-                        <th>Employ</th>
-                        <th>Project</th>
+                        <th>Number</th>
                         <th>Date</th>
-                        <th>Clock In</th>
-                        <th>Clock Out</th>
-                        <th>Hours</th>
+                        <th>Due Date</th>
+                        <th>Payee</th>
+                        <th>payer</th>
                         <th>Description</th>
+                        <th>Amount</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for item in list %}
                     <tr>
-                        <td>{{ item.employ }}</td>
-                        <td>{{ item.project }}</td>
-                        <td><a href="{% url 'timesheet_read' item.id %}">{{ item.date|date:'m/d/Y' }}</a></td>
-                        <td>{{ item.clock_in|time:'h:i a' }}</td>
-                        <td>{{ item.clock_out|time:'h:i a' }}</td>
-                        <td>{{ item.hours }}</td>
+                        <td><a href="{% url 'document_read' item.id %}">{{ item.number }}</a></td>
+                        <td>{{ item.date|date:'m/d/Y' }}</td>
+                        <td>{{ item.due_date|date:'m/d/Y' }}</td>
+                        <td>{{ item.payee }}</td>
+                        <td>{{ item.payer }}</td>
                         <td>{{ item.description|slice:100 }}</td>
+                        <td>{{ item.amount }}</td>
                     </tr>
                   {% endfor %}
                   </tbody>
                 <tfoot>
                     <tr>
-                        <th>Employ</th>
-                        <th>Project</th>
+                        <th>Number</th>
                         <th>Date</th>
-                        <th>Clock In</th>
-                        <th>Clock Out</th>
-                        <th>Hours</th>
+                        <th>Due Date</th>
+                        <th>Payee</th>
+                        <th>payer</th>
                         <th>Description</th>
+                        <th>Amount</th>
                     </tr>
                 </tfoot>
                 </table>

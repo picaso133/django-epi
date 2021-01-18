@@ -53,8 +53,8 @@
                         <th>Building</th>
                         <th>#</th>
                         <th>Password</th>
+                        <th>Files</th>
                         <th>PM</th>
-                        <th>PM EPI</th>
                         <th>Inspections</th>
                         <th>Design Package</th>
                         <th>Percent</th>
@@ -69,11 +69,15 @@
                         <td>{{ project.address}}</td>
                         <td>{{ project.unit}}</td>
                         <td>{{ project.passwords }}</td>
-                        <td><a href="#">{{ project.pm }}</a></td>
-                        <td>{{ project.pm_epi }}</td>
+                        <td>
+                            Requisition Form: <a href="{{ project.rq.file_url }}">{{ project.rq }}</a><br />
+                            Contract: <a href="{{ project.contract.file_url }}">{{ project.contract }}</a><br />
+                            Proposal: <a href="{{ project.proposal.file_url }}">{{ project.proposal }}</a>
+                        </td>
+                        <td><a href="#">{{ project.general_contractor }}</a></td>
                         <td>
                             {% for inspection in project.inspections.all %}
-                                <a href="{% url 'inspection_read' inspection.id %}">{{ inspection.date|date:'m/d/Y' }} {{ inspection.type }}</a> <br />
+                                <a href="{% url 'inspection_update' inspection.id %}">{{ inspection.date|date:'m/d/Y' }} {{ inspection.type }}</a> <br />
                             {% endfor%}
                         </td>
                         <td>{{ project.design_package }}</td>
@@ -90,7 +94,6 @@
                             <th>#</th>
                             <th>Password</th>
                             <th>PM</th>
-                            <th>PM EPI</th>
                             <th>Inspections</th>
                             <th>Design Package</th>
                             <th>Percent</th>

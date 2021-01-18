@@ -4,6 +4,8 @@ from .models import Files_storage
 from employees.models import Employ
 from change_orders.models import Change_order
 from orders.models import Order
+from work_logs.models import Work_log
+from documents.models import Document
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.files.storage import FileSystemStorage
 
@@ -45,6 +47,14 @@ def assign(request, module, id, template_name = 'file_storage/upload.html'):
             change_order.save()
         if module == 'order':
             order = get_object_or_404(Order, pk=id)
+            order.files.add(upload_file(request, 'file'))
+            order.save()
+        if module == 'work_log':
+            order = get_object_or_404(Work_log, pk=id)
+            order.files.add(upload_file(request, 'file'))
+            order.save()
+        if module == 'document':
+            order = get_object_or_404(Document, pk=id)
             order.files.add(upload_file(request, 'file'))
             order.save()
         return HttpResponse('<script type="text/javascript">window.close()</script>')

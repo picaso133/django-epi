@@ -59,6 +59,13 @@
                                             <label>Clock In</label>
                                             <input name="clock_in" type="time" class="form-control" value="{{ item.clock_in|time:'H:i' }}">
                                         </div>
+                                        <div class="col-md-auto text-center">
+                                            <label for="">Lunch</label>
+                                            <div class="icheck-primary">
+                                                <input name="is_meal_time" id="is_meal_time" type="checkbox"  {% if item.is_meal_time == True %}checked{% endif %} value="True" />
+                                                <label for="is_meal_time"></label>
+                                            </div>
+                                        </div>
                                         <div class="col-2">
                                             <label>Clock Out</label>
                                             <input name="clock_out" type="time" class="form-control" value="{{ item.clock_out|time:'H:i' }}">

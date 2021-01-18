@@ -1,63 +1,48 @@
-
-        <div class="card-body">
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-2">
-                        <label>Number</label>
-                        <input name="number" type="text" class="form-control" value="{{ item.number}}">
-                    </div>
-                    <div class="col-2">
-                        <label>Date</label>
-                        <input name="date" type="date" class="form-control" value="{{ item.date|date:'Y-m-d' }}">
-                    </div>
-                    <div class="col-2">
-                        <label>Due Date</label>
-                        <input name="due_date" type="date" class="form-control" value="{{ item.due_date|date:'Y-m-d' }}">
-                    </div>
-                    <div class="col-2">
-                        <div class="form-group">
-                            <label>Status</label>
-                            <select name="status" class="form-control">
-                                <option value selected> ----- </option>
-                                {% for status in statuses %}
-                                    <option value="{{ status }}" {% if status == item.status %}selected{% endif %}>{{ status }}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-group">
-                            <label>Type</label>
-                            <select name="type" class="form-control">
-                                <option value selected> ----- </option>
-                                {% for type in types %}
-                                    <option value="{{ type.id }}" {% if type.id == item.type.id %}selected{% endif %}>{{ type }}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                    </div>
+ <div class="card-body">
+    <div class="form-group">
+        <div class="row">
+            <div class="col-2">
+                <label>Date</label>
+                <input name="date" type="date" class="form-control" value="{{ item.date|date:'Y-m-d' }}">
+            </div>
+            <div class="col-2">
+                <div class="form-group">
+                    <label>Status</label>
+                    <select name="status" class="form-control">
+                        <option value selected> ----- </option>
+                        {% for status in document_statuses %}
+                            <option value="{{ status }}" {% if status == item.status  or status == document_status %}selected{% endif %}>{{ status }}</option>
+                        {% endfor %}
+                    </select>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <label>Payee</label>
-                        <input name="payee" type="text" class="form-control" value="{{ item.payee}}">
-                    </div>
-                    <div class="col">
-                        <label>Payer</label>
-                        <input name="payer" type="text" class="form-control" value="{{ item.payer}}">
-                    </div>
-                    <div class="col-2">
-                        <label>Amount</label>
-                        <input name="amount" type="number" step="any" class="form-control" value="{{ item.amount}}">
-                    </div>
+            </div>
+            <div class="col-2">
+                <div class="form-group">
+                    <label>Type</label>
+                    <select name="type" class="form-control">
+                        {% if document_type %}
+                            <option value="{{ document_type.id }}" selected> {{ document_type }} </option>
+                        {% else %}
+                            <option value selected> ----- </option>
+                            {% for type in document_types %}
+                                <option value="{{ type.id }}" {% if type.id == item.type.id %}selected{% endif %}>{{ type }}</option>
+                            {% endfor %}
+                        {% endif %}
+                    </select>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="form-group">
-                            <label for="">Description</label>
-                            <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-2">
+                <label>Amount</label>
+                <input name="amount" type="number" step="any" class="form-control" value="{{ item.amount}}">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <label for="">Description</label>
+                    <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
                 </div>
             </div>
         </div>
+    </div>
+</div>

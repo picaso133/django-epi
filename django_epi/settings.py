@@ -25,12 +25,20 @@ SECRET_KEY = '4!f#310=vg24h7w#o)+lz5&y6+jprej_ci&d$g@o8-invp+l1%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'force.codes']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'receipts.apps.ReceiptsConfig',
+    'invoices.apps.InvoicesConfig',
+    'invoice_items.apps.InvoiceItemsConfig',
+    'payments.apps.PaymentsConfig',
+    'customers.apps.CustomersConfig',
+    'company.apps.CompanyConfig',
+    'documents.apps.DocumentsConfig',
+    'work_logs.apps.WorkLogsConfig',
     'timesheets.apps.TimesheetsConfig',
     'inventory.apps.InventoryConfig',
     'suppliers.apps.SuppliersConfig',
@@ -72,8 +80,7 @@ ROOT_URLCONF = 'django_epi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

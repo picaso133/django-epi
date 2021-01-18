@@ -41,20 +41,68 @@
 
 <!-- Summernote -->
 <script src="{% static 'plugins/jsgrid/jsgrid.min.js' %}"></script>
+
+
+
 <script>
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie != '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    var csrftoken = getCookie('csrftoken');
+    function csrfSafeMethod(method) {
+        // these HTTP methods do not require CSRF protection
+        return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+    $.ajaxSetup({
+        beforeSend: function(xhr, settings) {
+            if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
+        }
+    });
 $(document).ready(function () {
     $('#inspection_table').DataTable({"pageLength": 25});
     $('#employees_table').DataTable({"pageLength": 100});
-    $('#projects_table').DataTable({"pageLength": 25});
+    $('#projects_table').DataTable({dom: 'Bfrtip', "pageLength": 25, buttons: ['copy', 'excel', 'pdf', 'print', 'pageLength'],});
+    $('#dataTable').DataTable({dom: 'Bfrtip', "pageLength": 25, buttons: ['copy', 'excel', 'pdf', 'print', 'pageLength'],});
     $('#orders_table').DataTable({"pageLength": 25});
+    $('#timesheet_table tfoot th').each(function () {
+		var title = $(this).text();
+		$(this).html('<input type="text" placeholder="Search ' + title + '" />');
+	});
+    $('#timesheet_table').DataTable({
+		dom: 'Bfrtip',
+		buttons: ['copy', 'excel', 'pdf', 'print', 'pageLength'],
+		"pageLength": 25,
+		"order": [2, "desc"],
+	}).columns().every(function () {
+        var that = this;
+        $('input', this.footer()).on('keyup change clear', function () {
+            if (that.search() !== this.value) {
+                that.search(this.value).draw();
+            }
+        });
+    });
 	$('#checkes_table tfoot th').each(function () {
 		var title = $(this).text();
 		$(this).html('<input type="text" placeholder="Search ' + title + '" />');
 	});
     $('#checkes_table').DataTable({
 		dom: 'Bfrtip',
-		buttons: ['copy', 'excel', 'pdf', 'print'],
-		"pageLength": 10,
+		buttons: ['copy', 'excel', 'pdf', 'print', 'pageLength'],
+		"pageLength": 25,
 		"order": [1, "desc"],
 		"footerCallback": function (row, data, start, end, display) {
 			var api = this.api();
@@ -111,4 +159,41 @@ function PopupCenter(url, title, w, h) {
 	// Puts focus on the newWindow
 	if (window.focus) newWindow.focus();
 }
+
+function deleteInvoiceItem(el) {
+    id = el.parentElement.parentElement.querySelector('input[name=item_id]').value;
+    console.log(id);
+    $.ajax({
+        url: 'http://127.0.0.1:8000/invoice_items/delete/'+id,
+        type: 'DELETE',
+        data: {},
+        contentType:'application/json',
+        dataType: 'text',
+        error: function(result){
+            console.log(result)
+        },
+        success: function(result) {
+            console.log(result)
+        }
+    });
+    el.parentElement.parentElement.remove();
+
+
+}
+
+function addInvoiceItem(id) {
+    var i = document.getElementById(id);
+    var k = i.childElementCount;
+    var d = document.createElement("div")
+    d.className = "row";
+    d.innerHTML = '<div class="col-1"><div class="form-group"><input class="form-control" type="text" disabled value="' + k + '"></div></div><div class="col-6"><div class="form-group"><textarea class="form-control" name="item[' + k + '][description]" rows="1"></textarea></div></div><div class="col-1"><div class="form-group"><input class="form-control" name="item[' + k + '][unit_price]"></div></div><div class="col-1"><div class="form-group"><input class="form-control" name="item[' + k + '][qty]"></div></div><div class="col-2"><div class="form-group"><input class="form-control" name="amount" disabled></div></div><div class="col-1 text-center"> <button type="button" title="Delete" class="btn btn-danger" onclick="deleteInvoiceItem(this)"><i class="far fa-trash-alt"></i></button> </div>';
+    i.appendChild(d);
+
+
+}
+
 </script>
+
+
+
+

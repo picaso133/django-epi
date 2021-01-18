@@ -5,6 +5,7 @@
          <h3 class="card-title">Project: {{ item }}</h3>
           <div class="card-tools">
               <a href="{% url 'project_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+              <a href="{% url 'project_delete' item.id %}" type="button" class="btn btn-tool" title="Delete" onclick="return confirm('Are you sure?')"><i class="far fa-trash-alt"></i></a>
           </div>
       </div>
       <div class="card-body">
@@ -70,6 +71,20 @@
              </div>
            </div>
          </div>
+          <div class="row">
+             <div class="col form-group">
+                <label>Requisition Form:</label>
+                 <a href="{{ item.rq.url }}">{{ item.rq }}</a>
+             </div>
+              <div class="col form-group">
+                <label>Contract:</label>
+                 <a href="{{ item.contract.url }}">{{ item.contract }}</a>
+              </div>
+              <div class="col form-group">
+                <label>Proposal:</label>
+                 <a href="{{ item.proposal.url }}">{{ item.proposal }}</a>
+              </div>
+          </div>
       </div>
    </div>
 </div>

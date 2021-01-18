@@ -5,9 +5,9 @@ autopep8==1.4.4
 Click==7.0
 colorama==0.4.1
 dj-database-url==0.5.0
-Django==2.2.9
+Django==3.1.5
 django-advanced-filters==1.1.1
-django-braces==1e.14.0
+django-braces==1.14.0
 django-filer==1.6.0
 django-heroku==0.3.1
 django-jet==1.0.8
@@ -27,8 +27,8 @@ Jinja2==2.10.3
 lazy-object-proxy==1.4.1
 MarkupSafe==1.1.1
 mccabe==0.6.1
-Pillow==7.0.0
-psycopg2==2.8.4
+Pillow==8.1.0
+psycopg2==2.8.6
 pycodestyle==2.5.0
 pylint==2.3.1
 PyMySQL==0.9.3
@@ -36,7 +36,7 @@ pytz==2019.3
 simplejson==3.17.0
 six==1.12.0
 sqlparse==0.3.0
-typed-ast==1.3.5
+typed-ast==1.4.2
 Unidecode==1.0.23
 Werkzeug==0.16.0
 whitenoise==5.0.1

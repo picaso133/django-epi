@@ -23,21 +23,40 @@
                         <div class="card-header">
                             <h3 class="card-title">Change Order: {{ item.document.number }}</h3>
                             <div class="card-tools">
-                                <a href="{% url 'change_order_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="{% url 'receipt_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="{% url 'receipt_delete' item.id %}" type="button" class="btn btn-tool" title="Delete" onclick="return confirm('Are you sure?')"><i class="far fa-trash-alt"></i></a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <div class="form-group">
-                                <label>Status:</label>
-                                {{ item.status }}
+                            <div class="row">
+                                <div class="col form-group">
+                                    <label>Date</label>
+                                    {{ item.document.date|date:'d/m/Y' }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Type:</label>
+                                    {{ item.document.type }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Status:</label>
+                                    {{ item.document.status }}
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label>Date</label>
-                                {{ item.document.date|date:'d/m/Y' }}
+                            <div class="row">
+                                <div class="col form-group">
+                                    <label>Amount:</label>
+                                    {{ item.document.amount }}
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label>Project:</label>
-                                {{ item.project }}
+                            <div class="row">
+                                <div class="col form-group">
+                                    <label>Vendor:</label>
+                                    {{ item.r_from }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Customer:</label>
+                                    {{ item.r_to }}
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">

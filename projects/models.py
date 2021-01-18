@@ -8,7 +8,7 @@ from django_epi.settings import BASE_DIR
 from file_storage.models import Files_storage
 from resident_managers.models import Resident_manager
 from project_managers.models import Project_manager
-# from inspections.models import Inspection
+from documents.models import Document
 
 class Design_package(models.Model):
     type = models.CharField(max_length=255)
@@ -49,15 +49,15 @@ class Project(models.Model):
     address = models.CharField(max_length=255)
     unit = models.IntegerField(blank=True, default=0)
     zip = models.IntegerField(blank=True, default=0)
-    city_state = models.CharField(max_length=255, default="")
+    city_state = models.CharField(max_length=255, default="San Francisco, CA")
     passwords = models.CharField(max_length=255, blank=True)
-    bedrooms = models.IntegerField()
-    bathrooms = models.IntegerField()
-    sqFt = models.FloatField()
-    percent = models.FloatField(default=0)
-    jobNumber = models.CharField(max_length=255, unique=True)
-    start_date = models.DateField(blank=True)
-    end_date = models.DateField(blank=True)
+    bedrooms = models.IntegerField(default=0, blank=True)
+    bathrooms = models.IntegerField(default=0, blank=True)
+    sqFt = models.FloatField(default=0, blank=True)
+    percent = models.FloatField(default=0, blank=True)
+    jobNumber = models.CharField(max_length=255, unique=True, blank=True)
+    start_date = models.DateField(default='1970-01-01', blank=True)
+    end_date = models.DateField(default='1970-01-01', blank=True)
     status_type = [
         ('Open', 'Open'),
         ('In Progress', 'In Progress'),
@@ -67,7 +67,7 @@ class Project(models.Model):
         ('Canceled', 'Canceled'),
         ('Rejected', 'Rejected')
     ]
-    status = models.CharField(max_length=255, choices=status_type, default='OPEN')
+    status = models.CharField(max_length=255, choices=status_type, default='Open')
 
     # Relations
     pm_epi = models.ForeignKey(User, models.SET_NULL, blank=True, null=True, verbose_name = "Project Manager EPI")
@@ -75,7 +75,11 @@ class Project(models.Model):
     pm = models.ForeignKey(Project_manager, models.SET_NULL, blank=True, null=True, verbose_name = "Project Manager")
     general_contractor = models.ForeignKey(General_contractor, models.SET_NULL, blank=True, null=True, verbose_name = "General Contractor")
     design_package = models.ForeignKey(Design_package, models.SET_NULL, blank=True, null=True, verbose_name = "Design package")
-    drawings = models.ManyToManyField(Files_storage)
+    rq = models.ForeignKey(Files_storage, models.SET_NULL, blank=True, null=True, related_name='rqs')
+    contract = models.ForeignKey(Files_storage, models.SET_NULL, blank=True, null=True, related_name='contracts')
+    proposal = models.ForeignKey(Files_storage, models.SET_NULL, blank=True, null=True, related_name='proposals')
+    drawings = models.ManyToManyField(Files_storage, related_name='drawings')
+    documents = models.ManyToManyField(Document, related_name='documents')
 
     # Auto generated fields
     created_at = models.DateTimeField(auto_now=True)
@@ -85,6 +89,12 @@ class Project(models.Model):
     class Meta:
         verbose_name = 'Project'
         verbose_name_plural = 'Projects'
+
+    def get_name(self):
+        return self.address + ' #' + str(self.unit)
+
+    def get_address(self):
+        return self.address + ' #' + str(self.unit) + ', ' + self.city_state + ', ' + str(self.zip)
 
     def __str__(self):
         return self.address + ' #' + str(self.unit)

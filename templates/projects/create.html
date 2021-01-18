@@ -158,15 +158,42 @@
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="col-2 form-group">
+                                        <label>Requisition Form</label>
+                                        <div class="input-group">
+                                          <div class="custom-file">
+                                            <input name="rq" type="file" class="custom-file-input" value="{{ item.rq.file_path }}">
+                                            <label class="custom-file-label">Choose file</label>
+                                          </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-2 form-group">
+                                        <label>Contract</label>
+                                        <div class="input-group">
+                                          <div class="custom-file">
+                                            <input name="contract" type="file" class="custom-file-input" value="{{ item.contract.file_path }}">
+                                            <label class="custom-file-label">Choose file</label>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 form-group">
+                                        <label>Proposal</label>
+                                        <div class="input-group">
+                                          <div class="custom-file">
+                                            <input name="proposal" type="file" class="custom-file-input" value="{{ item.proposal.file_path }}">
+                                            <label class="custom-file-label">Choose file</label>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label for="">Description</label>
                                             <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
                             <!-- /.card-body -->
                             <div class="card-footer">

@@ -24,6 +24,7 @@
                             <h3 class="card-title">Order: {{ item.number }}</h3>
                             <div class="card-tools">
                                 <a href="{% url 'timesheet_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="{% url 'timesheet_delete' item.id %}" type="button" class="btn btn-tool" title="Delete" onclick="return confirm('Are you sure?')"><i class="far fa-trash-alt"></i></a>
                             </div>
                         </div>
                         <div class="card-body">
@@ -43,6 +44,10 @@
                                 <div class="col form-group">
                                     <label>Clock In:</label>
                                     {{ item.clock_in }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Lunch:</label>
+                                    {{ item.is_meal_time }}
                                 </div>
                                 <div class="col form-group">
                                     <label>Clock Out:</label>

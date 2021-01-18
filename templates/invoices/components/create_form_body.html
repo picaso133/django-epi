@@ -1,0 +1,21 @@
+<div class="card-body">
+    <div class="form-group">
+        <div class="row">
+            <div class="col">
+                <label>Due Date</label>
+                <input name="due_date" type="date" class="form-control" value="{{ item.due_date|date:'Y-m-d' }}">
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label>Customers</label>
+                    <select name="customer" class="form-control select2 select2-hidden-accessible"  id="project_select2" style="width: 100%;">
+                        <option value selected> ----- </option>
+                        {% for customer in customers %}
+                            <option value="{{ customer.id }}" {% if customer.id == item.customer.id %}selected="selected"{% endif %}>{{ customer.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

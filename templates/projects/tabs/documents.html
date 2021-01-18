@@ -2,7 +2,35 @@
   <div class="col-12">
    <div class="card card-info">
       <div class="card-header">
-         <h3 class="card-title">Inspections</h3>
+         <h3 class="card-title">Assign Documents</h3>
+         <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fas fa-minus"></i></button>
+         </div>
+      </div>
+      <div class="card-body p-2">
+         <form  action="" method="post">
+            {% csrf_token %}
+            <div class="input-group input-group-md">
+               <select name="document" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width:50%;">
+                    <option value selected> ----- </option>
+                    {% for document in documents %}
+                        <option value="{{ document.id }}" >{{ document }}</option>
+                    {% endfor %}
+               </select>
+              <span class="input-group-append">
+                  <input class="btn btn-primary" type="submit" value="Submit" />
+              </span>
+            </div>
+        </form>
+      </div>
+   </div>
+</div>
+</div>
+<div class="row">
+  <div class="col-12">
+   <div class="card card-info">
+      <div class="card-header">
+         <h3 class="card-title">Documents</h3>
          <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fas fa-minus"></i></button>
          </div>
@@ -11,19 +39,21 @@
          <table class="table">
             <thead>
                <tr>
-                  <th>Inspection</th>
+                  <th>Number</th>
                   <th>Date</th>
                   <th>Status</th>
                   <th>Description</th>
+                  <th class="text-center" style="width: 150px;">Actions</th>
                </tr>
             </thead>
             <tbody>
-               {% for inspection in item.inspections.all %}
+               {% for document in item.documents.all %}
                <tr>
-                  <td><a href="{% url 'inspection_read' inspection.id %}">{{ inspection }}</a></td>
-                  <td>{{ inspection.date|date:'m/d/Y' }}</td>
-                  <td>{{ inspection.status }}</td>
-                  <td>{{ inspection.description|slice:100 }}...</td>
+                  <td><a href="{% url 'document_read' document.id %}">{{ document.number }}</a></td>
+                  <td>{{ document.date|date:'m/d/Y' }}</td>
+                  <td>{{ document.status }}</td>
+                  <td>{{ document.description|slice:100 }}...</td>
+                  <td class="text-center"><a class="btn btn-danger" href="{% url 'document_deassign' item.id document.id %} "><i class="fas fa-unlink"></i></a></td>
                </tr>
                {% endfor %}
             </tbody>

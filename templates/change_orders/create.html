@@ -27,39 +27,38 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
+            <form enctype="multipart/form-data" method="POST">
+                <div class="row">
+                    {% csrf_token %}
+                    <div class="col-8">
+                        <div class="card card-success">
+                            <div class="card-header">
+                                <h3 class="card-title">Document {{ item.number }}</h3>
+                            </div>
+                            {% include 'documents/components/create_form_body.html'  with item=item.document %}
+
+                        </div>
+                    </div>
+                    <div class="col-4">
                     <div class="card card-success">
                         <div class="card-header">
                             <h3 class="card-title">Change Order {{ item.id }}</h3>
                         </div>
-                        <!-- /.card-header -->
-                        <!-- form start -->
-                        <form enctype="multipart/form-data" method="POST">
-                            {% csrf_token %}
                             <div class="card-body">
                                 <div class="form-group">
                                     <div class="row">
-                                        <div class="col-2">
-                                            <label>Number</label>
-                                            <input name="number" type="text" class="form-control" value="{{ item.number }}">
-                                        </div>
-                                        <div class="col-2">
-                                            <label>Date</label>
-                                            <input name="date" type="text" id="permit_start_date" class="form-control" value="{{ item.date|date:'m/d/Y' }}">
-                                        </div>
-                                        <div class="col-3">
+                                        <div class="col">
                                             <div class="form-group">
                                                 <label>Status</label>
                                                 <select name="status" class="form-control select2 select2-hidden-accessible"  id="inspection_type_select2" style="width: 100%;">
                                                     <option value selected> ----- </option>
-                                                    {% for status in statuses %}
+                                                    {% for status in change_order_statuses %}
                                                         <option value="{{ status }}" {% if status == item.status %}selected="selected"{% endif %}>{{ status }}</option>
                                                     {% endfor %}
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col">
                                             <div class="form-group">
                                                 <label>Project</label>
                                                 <select name="project" class="form-control select2 select2-hidden-accessible"  id="project_select2" style="width: 100%;">
@@ -71,24 +70,20 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="form-group">
-                                                <label for="">Description</label>
-                                                <textarea name="description" class="form-control" cols="30" rows="10">{{ item.description }}</textarea>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                            <!-- /.card-body -->
-                            <div class="card-footer">
-                                <input class="btn btn-primary" type="submit" value="Submit" />
-                            </div>
-                        </form>
                     </div>
                 </div>
-            </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <input class="btn btn-primary" type="submit" value="Create" />
+                    </div>
+                </div>
+
+
+
+            </form>
         </div>
     </section>
 </div>

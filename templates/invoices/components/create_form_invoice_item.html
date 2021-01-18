@@ -1,0 +1,62 @@
+<div class="row">
+	<div class="col-1 text-center">
+		<div class="form-group">
+            <label for="">#</label>
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="form-group">
+            <label for="">Description</label>
+		</div>
+	</div>
+    <div class="col-1 text-center">
+		<div class="form-group">
+            <label for="">Unit Price</label>
+		</div>
+	</div>
+     <div class="col-1 text-center">
+		<div class="form-group">
+            <label for="">QTY</label>
+		</div>
+	</div>
+    <div class="col-2 text-center">
+		<div class="form-group">
+            <label for="">Amount</label>
+		</div>
+	</div>
+    <div class="col-1 text-center">
+        <label for="">Actions</label>
+    </div>
+</div>
+{% for i in item.items.all %}
+<div class="row">
+	<div class="col-1 text-center">
+		<div class="form-group">
+			<input class="form-control" name="item_id" type="text" disabled value="{{ i.id }}">
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="form-group">
+			<textarea class="form-control" name="item[{{ i.id }}][description]" id="" rows="1">{{ i.description }}</textarea>
+		</div>
+	</div>
+    <div class="col-1 text-center">
+		<div class="form-group">
+			<input class="form-control" name="item[{{ i.id }}][unit_price]" value="{{ i.unit_price }}">
+		</div>
+	</div>
+     <div class="col-1 text-center">
+		<div class="form-group">
+			<input class="form-control" name="item[{{ i.id }}][qty]" value="{{ i.qty }}">
+		</div>
+	</div>
+    <div class="col-2 text-center">
+		<div class="form-group">
+			<input class="form-control" name="amount" disabled value="{{ i.amount }}">
+		</div>
+	</div>
+    <div class="col-1 text-center">
+        <button type="button" title="Delete" class="btn btn-danger" onclick="deleteInvoiceItem(this)"><i class="far fa-trash-alt"></i></button>
+    </div>
+</div>
+{% endfor %}

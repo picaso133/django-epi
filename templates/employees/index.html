@@ -65,21 +65,15 @@
                         <th>Phone</th>
                         <th>Email</th>
                         <th>Status</th>
-                        <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for employ in employ_list %}
                     <tr>
-                      <td>{{ employ.name }}</td>
+                      <td><a href="{% url 'employ_read' employ.id %}">{{ employ.name }}</a></td>
                       <td>{{ employ.phone }}</td>
                       <td>{{ employ.email }}</td>
                       <td width="50px" align="center">{% if employ.is_active  == True %} <i class="far fa-check-circle text-success"></i> {% else %} <i class="fas fa-ban text-danger"></i> {% endif %}</td>
-                      <td width="150px" align="center">
-                          <a class="btn btn-primary" href="{% url 'employ_read' employ.id %}"><i class="far fa-eye"></i></a>
-                          <a class="btn btn-warning" href="{% url 'employ_update' employ.id %}"><i class="fas fa-pencil-alt"></i></a>
-                          <a class="btn btn-danger" href="{% url 'employ_delete' employ.id %}"><i class="far fa-trash-alt"></i></a>
-                      </td>
                     </tr>
                   {% endfor %}
                   </tbody>

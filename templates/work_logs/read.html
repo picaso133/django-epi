@@ -4,12 +4,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0 text-dark">Order</h1>
+                    <h1 class="m-0 text-dark">Work Log</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Order</li>
+                        <li class="breadcrumb-item active">Work Log</li>
                     </ol>
                 </div>
             </div>
@@ -18,48 +18,53 @@
     <section class="content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-6">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Order: {{ item.number }}</h3>
+                            <h3 class="card-title">Work Log: {{ item.number }}</h3>
                             <div class="card-tools">
-                                <a href="{% url 'timesheet_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
-                                <a href="{% url 'timesheet_delete' item.id %}" type="button" class="btn btn-tool" title="Delete" onclick="return confirm('Are you sure?')"><i class="far fa-trash-alt"></i></a>
+                                <a href="{% url 'work_log_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="{% url 'work_log_delete' item.id %}" type="button" class="btn btn-tool" title="Delete" onclick="return confirm('Are you sure?')"><i class="far fa-trash-alt"></i></a>
                             </div>
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col form-group">
-                                    <label>Employ</label>
-                                    {{ item.employ}}
+                                    <label>Start Date</label>
+                                    {{ item.start_date|date:'d/m/Y'}}
                                 </div>
+                                <div class="col form-group">
+                                    <label>End Date</label>
+                                    {{ item.end_date|date:'d/m/Y'}}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Title</label>
+                                    {{ item.title }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Status</label>
+                                    {{ item.status }}
+                                </div>
+
+                            </div>
+                            <div class="row">
                                 <div class="col form-group">
                                     <label>Project</label>
-                                    {{ item.project}}
+                                    {{ item.project }}
                                 </div>
                                 <div class="col form-group">
-                                    <label>Date</label>
-                                    {{ item.date|date:'d/m/Y' }}
+                                    <label>Type</label>
+                                    {{ item.work_log_type }}
                                 </div>
-                                <div class="col form-group">
-                                    <label>Clock In:</label>
-                                    {{ item.clock_in }}
-                                </div>
-                                <div class="col form-group">
-                                    <label>Lunch:</label>
-                                    {{ item.is_meal_time }}
-                                </div>
-                                <div class="col form-group">
-                                    <label>Clock Out:</label>
-                                    {{ item.clock_out }}
-                                </div>
-                                <div class="col form-group">
-                                    <label>Is Holiday:</label>
-                                    {{ item.is_holiday }}
-                                </div>
-                                <div class="col form-group">
-                                    <label>Is Weekend:</label>
-                                    {{ item.is_weekend }}
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Employees:</label>
+                                        {% for employee in item.employees.all %}
+                                            {{ employee }};
+                                        {% endfor %}
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -72,6 +77,47 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-6">
+                    <div class="card card-info">
+                      <div class="card-header">
+                         <h3 class="card-title">Files</h3>
+                         <div class="card-tools">
+                            <a href="{% url 'file_storage_assign' 'work_log' item.id %}" type="button" class="btn btn-tool" title="Upload" target="_blank" onclick="PopupCenter(this.href, 'File Upload', '500', '500')"><i class="fas fa-upload"></i></a>
+                            <a type="button" class="btn btn-tool" title="ZIP"><i class="far fa-file-archive"></i></a>
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fas fa-minus"></i></button>
+                         </div>
+                      </div>
+                      <div class="card-body p-0">
+                         <table class="table">
+                            <thead>
+                               <tr>
+                                  <th>File Name</th>
+                                  <th>Description</th>
+                                  <th>File Size</th>
+                                  <th>File Type</th>
+                                  <th></th>
+                               </tr>
+                            </thead>
+                            <tbody>
+                               {% for file in item.files.all %}
+                               <tr>
+                                  <td>{{ file }}</td>
+                                  <td>{{ file.description }}</td>
+                                  <td>{{ file.file_size }}</td>
+                                  <td>{{ file.file_type }}</td>
+                                  <td class="text-right py-0 align-middle">
+                                     <div class="btn-group btn-group-sm">
+                                        <a href="{{ file.file_url }}" class="btn btn-info" target="_blank"><i class="fas fa-eye"></i></a>
+                                        <a href="{% url 'file_storage_delete' file.id %}" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+                                     </div>
+                                  </td>
+                               </tr>
+                               {% endfor %}
+                            </tbody>
+                         </table>
+                      </div>
+                   </div>
                 </div>
             </div>
         </div>

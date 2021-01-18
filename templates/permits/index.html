@@ -51,10 +51,8 @@
                         <th>Project</th>
                         <th>Number</th>
                         <th>Type</th>
-                        <th>End Date</th>
                         <th>File</th>
                         <th>Description</th>
-                        <th>Actions</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -63,12 +61,8 @@
                         <td><a href="{% url 'project_read' item.project.id %}">{{ item.project }}</a></td>
                         <td><a href="{% url 'permit_read' item.id %}">{{ item.number }}</a></td>
                         <td>{{ item.type }}</td>
-                        <td>{{ item.end_date|date:'m/d/Y' }}</td>
                         <td><a href="../uploads/{{ item.file }}" target="_blank">{{ item.file }}</a></td>
                         <td>{{ item.description|slice:100 }}</td>
-                        <td width="150px" align="center">
-                          <a class="btn btn-warning" href="{% url 'permit_update' item.id %}"><i class="fas fa-pencil-alt"></i></a>
-                      </td>
                     </tr>
                   {% endfor %}
                   </tbody>

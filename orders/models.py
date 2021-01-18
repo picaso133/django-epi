@@ -2,12 +2,10 @@ from django.db import models
 from projects.models import Project
 from file_storage.models import Files_storage
 from suppliers.models import Supplier
+from documents.models import Document
 
 class Order(models.Model):
     # Fields
-    number = models.CharField(max_length=255, blank=True)
-    date = models.DateTimeField()
-    description = models.TextField(blank=True)
     status_type = [
         ('Pending', 'Pending'),
         ('Awaiting Payment', 'Awaiting Payment'),
@@ -27,9 +25,9 @@ class Order(models.Model):
     status = models.CharField(max_length=255, choices=status_type, default='Pending')
 
     # Relations
-    project = models.ForeignKey(Project, models.SET_NULL, blank=True, null=True, related_name='orders')
-    supplier = models.ForeignKey(Supplier, models.SET_NULL, blank=True, null=True, related_name='orders')
-    files = models.ManyToManyField(Files_storage)
+    project = models.ForeignKey(Project, models.SET_NULL, blank=True, null=True)
+    supplier = models.ForeignKey(Supplier, models.SET_NULL, blank=True, null=True)
+    document = models.ForeignKey(Document, models.SET_NULL, blank=True, null=True)
 
     # Auto generated fields
     created_at = models.DateTimeField(auto_now=True)

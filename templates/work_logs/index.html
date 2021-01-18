@@ -1,32 +1,28 @@
 {% extends 'base.html' %}
 {% load static %}
+
 {% block content %}
-    <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Timesheet</h1>
-          </div><!-- /.col -->
+            <h1 class="m-0 text-dark">Work Logs</h1>
+          </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Timesheet</li>
+              <li class="breadcrumb-item active">Work Logs</li>
             </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- /.content-header -->
-    <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-        <!-- Info boxes -->
         <div class="row">
             <div class="col-12 text-right p-2">
-                <a href="{% url 'timesheet_create' %}" class="btn btn-success">Add</a>
+                <a href="{% url 'work_log_create' %}" class="btn btn-success">Add</a>
             </div>
         </div>
           <div class="row">
@@ -36,37 +32,34 @@
                 <table id="timesheet_table" class="table table-bordered table-condensed">
                   <thead>
                     <tr>
-                        <th>Employ</th>
                         <th>Project</th>
-                        <th>Date</th>
-                        <th>Clock In</th>
-                        <th>Clock Out</th>
-                        <th>Hours</th>
-                        <th>Description</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Start Date</th>
+                        <th>End Date </th>
+                        <th>Status</th>
                     </tr>
                   </thead>
                   <tbody>
                     {% for item in list %}
                     <tr>
-                        <td>{{ item.employ }}</td>
                         <td>{{ item.project }}</td>
-                        <td><a href="{% url 'timesheet_read' item.id %}">{{ item.date|date:'m/d/Y' }}</a></td>
-                        <td>{{ item.clock_in|time:'h:i a' }}</td>
-                        <td>{{ item.clock_out|time:'h:i a' }}</td>
-                        <td>{{ item.hours }}</td>
-                        <td>{{ item.description|slice:100 }}</td>
+{#                        <td><a href="{% url 'work_log_read' item.id %}">{{ item.title }}</a></td>#}
+                        <td>{{ item.work_log_type }}</td>
+                        <td>{{ item.start_date|date:'d/m/Y' }}</td>
+                        <td>{{ item.end_date|date:'d/m/Y' }}</td>
+                        <td>{{ item.status }}</td>
                     </tr>
                   {% endfor %}
                   </tbody>
                 <tfoot>
                     <tr>
-                        <th>Employ</th>
                         <th>Project</th>
-                        <th>Date</th>
-                        <th>Clock In</th>
-                        <th>Clock Out</th>
-                        <th>Hours</th>
-                        <th>Description</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Start Date</th>
+                        <th>End Date </th>
+                        <th>Status</th>
                     </tr>
                 </tfoot>
                 </table>

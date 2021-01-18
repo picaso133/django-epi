@@ -4,12 +4,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0 text-dark">Change Order: {{ item.number }}</h1>
+                    <h1 class="m-0 text-dark">Invoice: {{ item.number }}</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Change Order: {{ item.document.number }}</li>
+                        <li class="breadcrumb-item active">Invoice: {{ item.document.number }}</li>
                     </ol>
                 </div>
             </div>
@@ -21,23 +21,31 @@
                 <div class="col-6">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Change Order: {{ item.document.number }}</h3>
+                            <h3 class="card-title">Invoice: {{ item.document.number }}</h3>
                             <div class="card-tools">
-                                <a href="{% url 'change_order_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                                <a href="{% url 'invoice_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div class="card-body">
-                            <div class="form-group">
-                                <label>Status:</label>
-                                {{ item.status }}
+                            <div class="row">
+                                <div class="col form-group">
+                                    <label>Date</label>
+                                    {{ item.document.date|date:'d/m/Y' }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Type:</label>
+                                    {{ item.document.type }}
+                                </div>
+                                <div class="col form-group">
+                                    <label>Status:</label>
+                                    {{ item.document.status }}
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label>Date</label>
-                                {{ item.document.date|date:'d/m/Y' }}
-                            </div>
-                            <div class="form-group">
-                                <label>Project:</label>
-                                {{ item.project }}
+                            <div class="row">
+                                <div class="col form-group">
+                                    <label>Amount:</label>
+                                    {{ item.document.amount }}
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
@@ -49,8 +57,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-6">
                     <div class="card card-info">
                         <div class="card-header">
                           <h3 class="card-title">Files</h3>
@@ -82,6 +88,40 @@
                                         <a href="{% url 'file_storage_delete' file.id %}" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                                       </div>
                                     </td>
+                                  </tr>
+                                {% endfor %}
+                              </tbody>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6">
+                    <div class="card card-info">
+                        <div class="card-header">
+                          <h3 class="card-title">Items</h3>
+                          <div class="card-tools">
+                            <a href="{% url 'file_storage_assign' 'change_order' item.id %}" type="button" class="btn btn-tool" title="Upload" target="_blank" onclick="PopupCenter(this.href, 'File Upload', '500', '500')"><i class="fas fa-upload"></i></a>
+                            <a type="button" class="btn btn-tool" title="ZIP"><i class="far fa-file-archive"></i></a>
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse"><i class="fas fa-minus"></i></button>
+                          </div>
+                        </div>
+                        <div class="card-body p-0">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th>description</th>
+                                <th>unit_price</th>
+                                <th>qty</th>
+                                <th>amount</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                {% for i in item.items.all %}
+                                  <tr>
+                                    <td>{{ i.description}}</td>
+                                    <td>{{ i.unit_price }}</td>
+                                    <td>{{ i.qty }}</td>
+                                    <td>{{ i.amount }}</td>
                                   </tr>
                                 {% endfor %}
                               </tbody>

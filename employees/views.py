@@ -8,12 +8,8 @@ from django.http import HttpResponseRedirect
 from django.db import models
 
 from .models import Employ, User, Files_storage
-# Create your views here.
-
-class EmployesForm(ModelForm):
-    class Meta:
-        model = Employ
-        fields = ['id', 'name', 'phone', 'address', 'email', 'documents']
+from timesheets.models import Timesheet
+from customers.models import Customer
 
 @require_POST
 def upload_file(request, key):
@@ -25,37 +21,47 @@ def upload_file(request, key):
     return file_in_storage
 
 def index(request, template_name='employees/index.html'):
-    employes = Employ.objects.filter()
+    employees = Employ.objects.filter().order_by('name')
     # employees = Employ.objects.filter(is_active=True)
     inactive_employes = Employ.objects.filter(is_active=False)
-    data = {}
-    data['employ_list'] = employes
-    data['inactive_count'] = inactive_employes.count()
+
+    data = {
+        'employ_list': employees,
+        'inactive_count': inactive_employes.count()
+    }
+
+    # for e in employees:
+    #     Customer(name=e.name, address=e.address, email=e.email, phone=e.phone, employ=e).save()
+
     return render(request, template_name, data)
 
 def create(request, template_name='employees/create.html'):
     if request.method == 'POST':
-        newEmploy = Employ()
-        newEmploy.name = request.POST.get('name', '')
-        newEmploy.phone = request.POST.get('phone', '')
-        newEmploy.address = request.POST.get('address', '')
-        newEmploy.email = request.POST.get('email', '')
+        new = Employ()
+        new.name = request.POST.get('name', '')
+        new.phone = request.POST.get('phone', '')
+        new.address = request.POST.get('address', '')
+        new.email = request.POST.get('email', '')
         if request.POST.get('user') != '':
-            newEmploy.user = User.objects.get(id=request.POST.get('user'))
+            new.user = User.objects.get(id=request.POST.get('user'))
         if request.POST.get('is_active') == 'on':
-            newEmploy.is_active = True
+            new.is_active = True
         else:
-            newEmploy.is_active = False
-        newEmploy.save()
+            new.is_active = False
+        new.save()
 
+        Customer(name=new.name, address=new.address, email=new.email, phone=new.phone, employ=new).save()
         return redirect('employ_index')
     else:
         return render(request, template_name)
 
 def read(request, pk, template_name='employees/read.html'):
     employ = get_object_or_404(Employ, pk=pk)
-    data = {}
-    data['employ'] = employ
+    timesheets = Timesheet.objects.filter(employ_id=pk).order_by('date')
+    data = {
+        'employ': employ,
+        'timesheets': timesheets
+    }
     return render(request, template_name, data)
 
 def update(request, pk, template_name='employees/create.html'):

@@ -9,7 +9,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Change Order: {{ item.number }}</li>
+                        <li class="breadcrumb-item active">Change Order: {{ item.document.number }}</li>
                     </ol>
                 </div>
             </div>
@@ -21,23 +21,19 @@
                 <div class="col-6">
                     <div class="card card-primary">
                         <div class="card-header">
-                            <h3 class="card-title">Change Order: {{ item.number }}</h3>
+                            <h3 class="card-title">Change Order: {{ item.document.number }}</h3>
                             <div class="card-tools">
                                 <a href="{% url 'change_order_update' item.id %}" type="button" class="btn btn-tool" title="Edit"><i class="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label>Number:</label>
-                                {{ item.number }}
-                            </div>
-                            <div class="form-group">
                                 <label>Status:</label>
                                 {{ item.status }}
                             </div>
                             <div class="form-group">
                                 <label>Date</label>
-                                {{ item.date|date:'d/m/Y' }}
+                                {{ item.document.date|date:'d/m/Y' }}
                             </div>
                             <div class="form-group">
                                 <label>Project:</label>
@@ -47,7 +43,7 @@
                                 <div class="col-12">
                                     <div class="form-group">
                                         <label>Description:</label>
-                                        <div>{{ item.description }}</div>
+                                        <div>{{ item.document.description }}</div>
                                     </div>
                                 </div>
                             </div>
